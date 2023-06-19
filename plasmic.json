@@ -1,0 +1,1448 @@
+{
+  "platform": "nextjs",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "public-files",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "r3ASNrnyvLLLAtDvzUioQ",
+      "projectApiToken": "eSFGpQaYCtO9sRbPuQ2Ll9dmLOg8I4oKhx6e1PuCrsfmUIVbFbSXcy32UrPTwF9zX2HVXA0xaIKJNhCMHvA",
+      "projectName": "react-slick",
+      "version": "3.15.0",
+      "cssFilePath": "plasmic/react_slick/plasmic_react_slick.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "codeComponents": [
+        {
+          "id": "HOQUyOpClJ",
+          "name": "Slider",
+          "displayName": "hostless-slider",
+          "componentImportPath": "react-slick"
+        }
+      ]
+    },
+    {
+      "projectId": "caTPwKxj5ZrD9LQ7DMdK4Z",
+      "projectApiToken": "vXGGQpdi9fhcncabBdg8DcMRUbkz0iRW6HS1jzQufQR6QH0MasPwr9SX7ap4SsK3xXwwXmzZtglWGe0Rm2nw",
+      "projectName": "plasmic-basic-components",
+      "version": "3.19.0",
+      "cssFilePath": "plasmic/plasmic_basic_components/plasmic_plasmic_basic_components.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "codeComponents": [
+        {
+          "id": "CMDBvOhaI4s",
+          "name": "Iframe",
+          "displayName": "hostless-iframe",
+          "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
+        },
+        {
+          "id": "RhitNJW5Zu-",
+          "name": "Video",
+          "displayName": "hostless-html-video",
+          "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
+        },
+        {
+          "id": "PKldDYkH42",
+          "name": "Embed",
+          "displayName": "hostless-embed",
+          "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
+        },
+        {
+          "id": "D4RbnlpRXg3",
+          "name": "DataProvider",
+          "displayName": "hostless-data-provider",
+          "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
+        }
+      ]
+    },
+    {
+      "projectId": "7nJ7UcFmq9UzB6eXfC5z4a",
+      "projectApiToken": "uZp069FLSLNVA2dpWnqC3BUaj3flvtNBNXt6e1b67rm4Uh6lGHgYJ65FCBXlOFTB5KDW7RmmOxIAzgHYCg",
+      "projectName": "plasmic-nav",
+      "version": "0.17.0",
+      "cssFilePath": "plasmic/plasmic_nav/plasmic_plasmic_nav.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "codeComponents": [
+        {
+          "id": "jGx9tiKJoex",
+          "name": "NavigationBar",
+          "displayName": "hostless-plasmic-navigation-bar",
+          "componentImportPath": "@plasmicpkgs/plasmic-nav"
+        }
+      ]
+    },
+    {
+      "projectId": "kmmGrmCVRJPgZ5NNJMDQ4v",
+      "projectApiToken": "gdknk6AvlBJ8zWvKfrfmUgd95OeI59ukKuboVKVZlQjVdsksJYnqLYPd7J8ndTfcU9lZauk4qJHHiUzctQ",
+      "projectName": "plasmic-wordpress",
+      "version": "0.16.0",
+      "cssFilePath": "plasmic/plasmic_wordpress/plasmic_plasmic_wordpress.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "plasmic/plasmic_wordpress/PlasmicGlobalContextsProvider.tsx",
+      "codeComponents": [
+        {
+          "id": "pjFShxrixSi",
+          "name": "WordpressFetcher",
+          "displayName": "WordpressFetcher",
+          "componentImportPath": "@plasmicpkgs/plasmic-wordpress"
+        },
+        {
+          "id": "38Na4EoFMQU",
+          "name": "WordpressField",
+          "displayName": "WordpressField",
+          "componentImportPath": "@plasmicpkgs/plasmic-wordpress"
+        },
+        {
+          "id": "ABVULPU3AuC",
+          "name": "WordpressProvider",
+          "displayName": "WordpressProvider",
+          "componentImportPath": "@plasmicpkgs/plasmic-wordpress"
+        }
+      ]
+    },
+    {
+      "projectId": "hjKYmYi6HMwK6TRyk7ew5R",
+      "projectApiToken": "L5kqyh9xqKCqpdc8gqCglVcLZTxdkkP1Dt9pLUlWpyKVItIbbXr5272ePgMpZZiezhSe0AIOuQB353jQnw",
+      "projectName": "plasmic-cms",
+      "version": "6.20.0",
+      "cssFilePath": "plasmic/plasmic_cms/plasmic_plasmic_cms.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "plasmic/plasmic_cms/PlasmicGlobalContextsProvider.tsx",
+      "codeComponents": [
+        {
+          "id": "w6HdOz-Pcn",
+          "name": "CmsRowField",
+          "displayName": "hostless-plasmic-cms-row-field",
+          "componentImportPath": "@plasmicpkgs/plasmic-cms"
+        },
+        {
+          "id": "Ds6UdKRHmq",
+          "name": "CmsRowLink",
+          "displayName": "hostless-plasmic-cms-row-link",
+          "componentImportPath": "@plasmicpkgs/plasmic-cms"
+        },
+        {
+          "id": "dj_Vc2QmFA",
+          "name": "CmsRowImage",
+          "displayName": "hostless-plasmic-cms-row-image",
+          "componentImportPath": "@plasmicpkgs/plasmic-cms"
+        },
+        {
+          "id": "r3UO4W-xcR",
+          "name": "CmsRowFieldValue",
+          "displayName": "hostless-plasmic-cms-row-value",
+          "componentImportPath": "@plasmicpkgs/plasmic-cms"
+        },
+        {
+          "id": "OREVbGCcgN",
+          "name": "CmsCredentialsProvider",
+          "displayName": "hostless-plasmic-cms-credentials-provider",
+          "componentImportPath": "@plasmicpkgs/plasmic-cms"
+        },
+        {
+          "id": "8N9-WfZSaq",
+          "name": "CmsQueryRepeater",
+          "displayName": "hostless-plasmic-cms-query-repeater",
+          "componentImportPath": "@plasmicpkgs/plasmic-cms"
+        }
+      ]
+    },
+    {
+      "projectId": "YUiM7yqBWAqsh8KSnrdj7",
+      "projectApiToken": "yLKpJOE8mD6HqoNCSWF3Em8ut0LBzL7qb3QPqNeOLPjQsSBSc12yhYovnSRSekzgt1xjjbugBGDjOMLGMK4w",
+      "projectName": "plasmic-query",
+      "version": "0.19.0",
+      "cssFilePath": "plasmic/plasmic_query/plasmic_plasmic_query.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "globalContextsFilePath": "",
+      "codeComponents": [
+        {
+          "id": "ae7V86eNoXA",
+          "name": "DataFetcher",
+          "displayName": "hostless-plasmic-query-data-fetcher",
+          "componentImportPath": "@plasmicpkgs/plasmic-query"
+        },
+        {
+          "id": "0DrxdjD45dkx",
+          "name": "GraphqlFetcher",
+          "displayName": "hostless-plasmic-query-graphql-fetcher",
+          "componentImportPath": "@plasmicpkgs/plasmic-query"
+        }
+      ]
+    },
+    {
+      "projectId": "dGhXFrWhKMiTmf4n16zhxF",
+      "projectApiToken": "HyC1R5Xpa5MZyy7dpUhCzybcsdqA6YpwcolOVrSU1EBzDBL74lYBVYoX42Q0GQbFB0UonOHlJi2a9UwBK2Q",
+      "projectName": "Deployed - Royal Honey: Offer Component",
+      "version": "latest",
+      "cssFilePath": "plasmic/deployed_royal_honey_offer_component/plasmic_deployed_royal_honey_offer_component.module.css",
+      "components": [
+        {
+          "id": "b3bY2GpgsYbvU-",
+          "name": "Collection7",
+          "type": "managed",
+          "projectId": "dGhXFrWhKMiTmf4n16zhxF",
+          "renderModuleFilePath": "plasmic/deployed_royal_honey_offer_component/PlasmicCollection7.tsx",
+          "importSpec": {
+            "modulePath": "../pages/index.tsx"
+          },
+          "cssFilePath": "plasmic/deployed_royal_honey_offer_component/PlasmicCollection7.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "fY3LlGb9jfQSkJq",
+          "name": "Offer2",
+          "type": "managed",
+          "projectId": "dGhXFrWhKMiTmf4n16zhxF",
+          "renderModuleFilePath": "plasmic/deployed_royal_honey_offer_component/PlasmicOffer2.tsx",
+          "importSpec": {
+            "modulePath": "Offer2.tsx"
+          },
+          "cssFilePath": "plasmic/deployed_royal_honey_offer_component/PlasmicOffer2.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "5FoOryVkSYl6pok",
+          "name": "Offer3",
+          "type": "managed",
+          "projectId": "dGhXFrWhKMiTmf4n16zhxF",
+          "renderModuleFilePath": "plasmic/deployed_royal_honey_offer_component/PlasmicOffer3.tsx",
+          "importSpec": {
+            "modulePath": "Offer3.tsx"
+          },
+          "cssFilePath": "plasmic/deployed_royal_honey_offer_component/PlasmicOffer3.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "iKKsx8vJS-ZxVSM",
+          "name": "Offer4",
+          "type": "managed",
+          "projectId": "dGhXFrWhKMiTmf4n16zhxF",
+          "renderModuleFilePath": "plasmic/deployed_royal_honey_offer_component/PlasmicOffer4.tsx",
+          "importSpec": {
+            "modulePath": "Offer4.tsx"
+          },
+          "cssFilePath": "plasmic/deployed_royal_honey_offer_component/PlasmicOffer4.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        }
+      ],
+      "icons": [
+        {
+          "id": "Fno3GQPkWbVqPYW",
+          "name": "ChecksvgIcon",
+          "moduleFilePath": "plasmic/deployed_royal_honey_offer_component/icons/PlasmicIcon__Checksvg.tsx"
+        },
+        {
+          "id": "520p6CyrA_bVXHQ",
+          "name": "Icon2Icon",
+          "moduleFilePath": "plasmic/deployed_royal_honey_offer_component/icons/PlasmicIcon__Icon2.tsx"
+        },
+        {
+          "id": "YJoDgYJ-9x0fS6O",
+          "name": "IconIcon",
+          "moduleFilePath": "plasmic/deployed_royal_honey_offer_component/icons/PlasmicIcon__Icon.tsx"
+        },
+        {
+          "id": "vjg5jycLGEdQ1fc",
+          "name": "ArrowRightsvgIcon",
+          "moduleFilePath": "plasmic/deployed_royal_honey_offer_component/icons/PlasmicIcon__ArrowRightsvg.tsx"
+        },
+        {
+          "id": "066r2Kf6wQgH2uY",
+          "name": "ChevronRightIcon",
+          "moduleFilePath": "plasmic/deployed_royal_honey_offer_component/icons/PlasmicIcon__ChevronRight.tsx"
+        },
+        {
+          "id": "j0JbBIX3-Bk0GVj",
+          "name": "_62566Bbbf992C60E869E8Fe7Arrow2XsvgIcon",
+          "moduleFilePath": "plasmic/deployed_royal_honey_offer_component/icons/PlasmicIcon___62566Bbbf992C60E869E8Fe7Arrow2Xsvg.tsx"
+        },
+        {
+          "id": "Qk2jgqkC1P9ZqPy",
+          "name": "IconArrowRightsvgIcon",
+          "moduleFilePath": "plasmic/deployed_royal_honey_offer_component/icons/PlasmicIcon__IconArrowRightsvg.tsx"
+        },
+        {
+          "id": "T7s4IFTrW2utMUd",
+          "name": "SearchsvgIcon",
+          "moduleFilePath": "plasmic/deployed_royal_honey_offer_component/icons/PlasmicIcon__Searchsvg.tsx"
+        },
+        {
+          "id": "-jEWsK3CAjGsqYI",
+          "name": "SquaresvgIcon",
+          "moduleFilePath": "plasmic/deployed_royal_honey_offer_component/icons/PlasmicIcon__Squaresvg.tsx"
+        },
+        {
+          "id": "w0o78p1mFvRqzfA",
+          "name": "SquareCheckFilledsvgIcon",
+          "moduleFilePath": "plasmic/deployed_royal_honey_offer_component/icons/PlasmicIcon__SquareCheckFilledsvg.tsx"
+        },
+        {
+          "id": "Xov4gRsTxVVGibs",
+          "name": "SquareMinussvgIcon",
+          "moduleFilePath": "plasmic/deployed_royal_honey_offer_component/icons/PlasmicIcon__SquareMinussvg.tsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "t_DC9HCaFSPAV-N",
+          "name": "image",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/image.jpg"
+        },
+        {
+          "id": "o8xTx7qkBTs2w1W",
+          "name": "image 2",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/image2.jpg"
+        },
+        {
+          "id": "KL381rml9I-xK1Z",
+          "name": "image 3",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/image3.jpg"
+        },
+        {
+          "id": "YWBhMoGiYRyV9fb",
+          "name": "image 4",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/image4.jpg"
+        },
+        {
+          "id": "pS3W97yzb8ROkD0",
+          "name": "image 5",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/image5.jpg"
+        },
+        {
+          "id": "MFWjVUHDRyi6vJ2",
+          "name": "image 6",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/image6.jpg"
+        },
+        {
+          "id": "X1fuIK27XQJBGp2",
+          "name": "image 7",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/image7.jpg"
+        },
+        {
+          "id": "RpT8i7aERO56yNw",
+          "name": "image 8",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/image8.jpg"
+        },
+        {
+          "id": "P7EvAt38J-kRMVj",
+          "name": "image 9",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/image9.jpg"
+        },
+        {
+          "id": "4z9z09dzJ03sThK",
+          "name": "image 10",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/image10.jpg"
+        },
+        {
+          "id": "ZjiaHDWCfBZe8ZB",
+          "name": "image 11",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/image11.svg"
+        },
+        {
+          "id": "gsUN60bBIgEHHtU",
+          "name": "image 12",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/image12.jpg"
+        },
+        {
+          "id": "Q8bMMHlHR6NLgFH",
+          "name": "image 13",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/image13.avif"
+        },
+        {
+          "id": "TzyR1IumR45NzER",
+          "name": "image 14",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/image14.webp"
+        },
+        {
+          "id": "RqJybNCrUpTSrOi",
+          "name": "image 15",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/image15.jpg"
+        },
+        {
+          "id": "1amUH7bXW4jqtaT",
+          "name": "image 16",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/image16.avif"
+        },
+        {
+          "id": "jSoOhr6ObqFcEll",
+          "name": "image 17",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/image17.png"
+        },
+        {
+          "id": "n1s-OjuCbOdTO65",
+          "name": "image 18",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/image18.jpg"
+        },
+        {
+          "id": "aNywU41G6OKVUR4",
+          "name": "image 19",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/image19.jpg"
+        },
+        {
+          "id": "FT8VFXMr6TNVoxS",
+          "name": "image 20",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/image20.jpg"
+        },
+        {
+          "id": "Zz1St0ioIzKYIvd",
+          "name": "image 21",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/image21.webp"
+        },
+        {
+          "id": "Q2BulFR49OBKRIl",
+          "name": "image 22",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/image22.webp"
+        },
+        {
+          "id": "vXrzaonEBgMouUT",
+          "name": "image 23",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/image23.jpg"
+        },
+        {
+          "id": "XSHDIXoEMBWqCC-",
+          "name": "image 24",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/image24.jpg"
+        },
+        {
+          "id": "EW1ZgvQOQEo0qOq",
+          "name": "image 25",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/image25.jpg"
+        },
+        {
+          "id": "vSFWb7-B-PLcdBD",
+          "name": "image 26",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/image26.jpg"
+        },
+        {
+          "id": "yyFBV7mr4sJSr6C",
+          "name": "image 27",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/image27.png"
+        },
+        {
+          "id": "H1cns5Dj-0FCLN2",
+          "name": "image 28",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/image28.avif"
+        },
+        {
+          "id": "v8gIxrVeSvOcBXG",
+          "name": "image 29",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/image29.png"
+        },
+        {
+          "id": "DAsrsPia4I8HgyS",
+          "name": "image 30",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/image30.avif"
+        },
+        {
+          "id": "em_ISxGCeBQO1jl",
+          "name": "image 31",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/image31.png"
+        },
+        {
+          "id": "0K5DpK2wLK7aloa",
+          "name": "image 32",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/image32.png"
+        },
+        {
+          "id": "NFv0HQw1JprvZPA",
+          "name": "image 33",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/image33.svg"
+        },
+        {
+          "id": "wVxCRZZCMSb6SAS",
+          "name": "image 34",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/image34.png"
+        },
+        {
+          "id": "pNs2dJk1I0Li8-H",
+          "name": "image 35",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/image35.png"
+        },
+        {
+          "id": "_FMHOCxPRcAwjyM",
+          "name": "image 36",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/image36.png"
+        },
+        {
+          "id": "DU_JDLQ0p96v7g_",
+          "name": "image 37",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/image37.jpg"
+        },
+        {
+          "id": "ZIhI7xEXCdzMfF_",
+          "name": "image 38",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/image38.jpg"
+        },
+        {
+          "id": "vVEhe3vsckvrB4k",
+          "name": "4e8df833-5-star-reviews_107a01g000000000000028.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/_4E8Df8335StarReviews107A01G000000000000028Png.png"
+        },
+        {
+          "id": "bPg0-L4GvPuNzYO",
+          "name": "4e8df833-5-star-reviews_103n00q000000000000028.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/_4E8Df8335StarReviews103N00Q000000000000028Png.png"
+        },
+        {
+          "id": "_kgC1uub8pB4f85",
+          "name": "article - mobile.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/articleMobilepng.png"
+        },
+        {
+          "id": "zIp_9QOKRWhAINr",
+          "name": "logo.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/logopng.png"
+        },
+        {
+          "id": "p41N2Xx9ICjs6Uw",
+          "name": "midbanner.jpg",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/midbannerjpg.jpg"
+        },
+        {
+          "id": "fPadCK_VppI8Nlv",
+          "name": "review.jpg",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/reviewjpg.jpg"
+        },
+        {
+          "id": "z_sdD_s9iUufDDD",
+          "name": "fingericon.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/fingericonpng.png"
+        },
+        {
+          "id": "5jDbMWe-7JtnUUt",
+          "name": "star.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/starpng.png"
+        },
+        {
+          "id": "VeatsXUnBP7cuXo",
+          "name": "nw-brandlogo.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/nwBrandlogopng.png"
+        },
+        {
+          "id": "cQ6wasl6lkJxEg0",
+          "name": "li",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/li.png"
+        },
+        {
+          "id": "rpDhJPsG65hvRNw",
+          "name": "div 3",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/div3.jpg"
+        },
+        {
+          "id": "Ucyyxj240Clx87u",
+          "name": "sidereview1.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/sidereview1Png.png"
+        },
+        {
+          "id": "p9bO5uiTg7SkAhi",
+          "name": "sidereview2.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/sidereview2Png.png"
+        },
+        {
+          "id": "VSa3tqhyXESq2w0",
+          "name": "prodimage.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/prodimagepng.png"
+        },
+        {
+          "id": "GvVT-2K9onMx5WK",
+          "name": "sidereview3.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/sidereview3Png.png"
+        },
+        {
+          "id": "egfticvnz2zLfmK",
+          "name": "tick.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/tickpng.png"
+        },
+        {
+          "id": "yKMLQImlxMpZqVy",
+          "name": "cross.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/crosspng.png"
+        },
+        {
+          "id": "f21M25bzfe2r8qQ",
+          "name": "paymentcard.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/paymentcardpng.png"
+        },
+        {
+          "id": "JMYjnBmMtJRR-sm",
+          "name": "div",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/div.png"
+        },
+        {
+          "id": "GjTIQlesOO12ZtC",
+          "name": "nw-mobbrand1.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/nwMobbrand1Png.png"
+        },
+        {
+          "id": "sv1XfHLy-eKi_WA",
+          "name": "nw-mobbrand2.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/nwMobbrand2Png.png"
+        },
+        {
+          "id": "fqbAfx_zxRtnHML",
+          "name": "nw-mobbrand3.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/nwMobbrand3Png.png"
+        },
+        {
+          "id": "7aeguPRVGGuHgK7",
+          "name": "Divider.svg",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/dividersvg.undefined"
+        },
+        {
+          "id": "cjrtbey46Yrg-Cd",
+          "name": "4f0afe7d15505bfe240e785e7ac88b6c.webp",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/_4F0Afe7D15505Bfe240E785E7Ac88B6Cwebp.webp"
+        },
+        {
+          "id": "YJEeL26FlTot8Qa",
+          "name": "download.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/downloadpng.png"
+        },
+        {
+          "id": "wpxR70ophLZuS5I",
+          "name": "1670939125023.jpg",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/_1670939125023Jpg.jpg"
+        },
+        {
+          "id": "wHUKqQtkFJD1RKh",
+          "name": "image 39",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/image39.webp"
+        },
+        {
+          "id": "sTMwfJMC-77ur7_",
+          "name": "ef996f2bf3dfd2c3eff36c7a35914c6c.gif",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/ef996F2Bf3Dfd2C3Eff36C7A35914C6Cgif.gif"
+        },
+        {
+          "id": "FfKT1vQSSxgLXMg",
+          "name": "cab4357670ddf7f8ce094069bef14b6a.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/cab4357670Ddf7F8Ce094069Bef14B6Apng.png"
+        },
+        {
+          "id": "D87aIWO2gAthG-v",
+          "name": "product-variety_1c2e7bd9-ac9c-4989-bfad-811526dad7e0_250x250@2x.jpg.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/productVariety1C2E7Bd9Ac9C4989Bfad811526Dad7E0250X2502Xjpgpng.png"
+        },
+        {
+          "id": "j9r1-tZXDnBWy5O",
+          "name": "label.svg",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/labelsvg.svg"
+        },
+        {
+          "id": "h32owJX1LbteseP",
+          "name": "label.svg 2",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/labelsvg2.svg"
+        },
+        {
+          "id": "YkKY7zXRUZJBJ1n",
+          "name": "sparq-logo_125x.png.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/sparqLogo125Xpngpng.png"
+        },
+        {
+          "id": "AlabfXQwjql6fdI",
+          "name": "smoking_icon_ac8544ef-2a78-4a92-9740-ba3c7312e5c5_480x480.png.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/smokingIconAc8544Ef2A784A929740Ba3C7312E5C5480X480Pngpng.png"
+        },
+        {
+          "id": "9j8eGXHX2g64g2d",
+          "name": "beaker_icon_09efe31c-b2e4-4c7f-8a8f-f564e86fe6e1_480x480.png.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/beakerIcon09Efe31CB2E44C7F8A8FF564E86Fe6E1480X480Pngpng.png"
+        },
+        {
+          "id": "RqT3ZKcOAeinSYp",
+          "name": "pills_icon_73726148-c05b-4727-9378-2519623fd4a0_480x480.png.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/pillsIcon73726148C05B472793782519623Fd4A0480X480Pngpng.png"
+        },
+        {
+          "id": "QbJpncskOh_npVe",
+          "name": "recycle_icon_1607fa06-3a4b-4d0b-a0a6-1cd803b18c85_480x480.png.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/recycleIcon1607Fa063A4B4D0BA0A61Cd803B18C85480X480Pngpng.png"
+        },
+        {
+          "id": "ozr-CusSL0P3vR6",
+          "name": "offer.svg",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/offersvg.svg"
+        },
+        {
+          "id": "CEs7B0p3SPCRi4_",
+          "name": "VARIETY.svg",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/varietYsvg.svg"
+        },
+        {
+          "id": "SqdwnQwHW_Nr9Aq",
+          "name": "3-PACK.svg",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/_3PacKsvg.svg"
+        },
+        {
+          "id": "PAqWJM5qnAh5AE8",
+          "name": "FUEL.svg",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/fueLsvg.svg"
+        },
+        {
+          "id": "YzpPAsjSbOFz6rO",
+          "name": "PURE.svg",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/purEsvg.svg"
+        },
+        {
+          "id": "MqOANL4QhBZbPNo",
+          "name": "MELT.svg",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/melTsvg.svg"
+        },
+        {
+          "id": "zkrOv5T7FqaXTMg",
+          "name": "press.svg",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/presssvg.svg"
+        },
+        {
+          "id": "gbDtO7uc0vZTxWE",
+          "name": "midbanner.jpg.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/midbannerjpgpng.png"
+        },
+        {
+          "id": "3shok8gSNVCncXQ",
+          "name": "compare.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/comparepng.png"
+        },
+        {
+          "id": "__gl08cvzdc6aiN",
+          "name": "compare.png 2",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/comparepng2.png"
+        },
+        {
+          "id": "8ztQ4EKUOcAnFco",
+          "name": "sidereview1.png.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/sidereview1Pngpng.png"
+        },
+        {
+          "id": "nrWrHHsALOxXfw7",
+          "name": "disp offer.gif",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/dispOffergif.gif"
+        },
+        {
+          "id": "ZT_SwAh0gOUqYIw",
+          "name": "cart.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/cartpng.png"
+        },
+        {
+          "id": "OuBqYK0rRKN6CAI",
+          "name": "cart.svg",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/cartsvg.svg"
+        },
+        {
+          "id": "jRyfYWim01lHNuJ",
+          "name": "nav.svg",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/navsvg.svg"
+        },
+        {
+          "id": "uum8qsmEj-s8k8Q",
+          "name": "Disposable Outro.gif",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/disposableOutrogif.gif"
+        },
+        {
+          "id": "ghAj5n8njMZTJpP",
+          "name": "div.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/divpng.png"
+        },
+        {
+          "id": "xXBsfY1ddGKIKG_",
+          "name": "sidereview2.png.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/sidereview2Pngpng.png"
+        },
+        {
+          "id": "vVH6JFDUxxGacvN",
+          "name": "negative.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/negativepng.png"
+        },
+        {
+          "id": "sisI--ocCR_yRPv",
+          "name": "postive.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/postivepng.png"
+        },
+        {
+          "id": "0_5CcRpSlzPCqPG",
+          "name": "fuel iso 2 1.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/fuelIso21Png.png"
+        },
+        {
+          "id": "HoowO66FbNH_Gc9",
+          "name": "Sparq box animation loop shorter version.gif",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/sparqBoxAnimationLoopShorterVersiongif.gif"
+        },
+        {
+          "id": "tTRNpP6bm0YmRU5",
+          "name": "12a7a7bb-testing-smaller-image_10yy0fa000000000000028.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/_12A7A7BbTestingSmallerImage10Yy0Fa000000000000028Png.png"
+        },
+        {
+          "id": "W1rWFA-BLRbfWHf",
+          "name": "LADYBAGUETTE2020IMG_3156-Edit (2).jpg",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/ladybaguette2020Img3156Edit2Jpg.jpg"
+        },
+        {
+          "id": "1SiXNqp6uLM-l5P",
+          "name": "IMG_3592-Edit (1).jpg",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/img3592Edit1Jpg.jpg"
+        },
+        {
+          "id": "BmfNENzRWFO7XnJ",
+          "name": "div 4",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/div4.png"
+        },
+        {
+          "id": "DhbNEiQRHiPBQr0",
+          "name": "Sparq_Logo_Final-03_1_-removebg-preview_3b7bc87c-264b-43d3-8992-4155c29d48c3.webp",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/sparqLogoFinal031RemovebgPreview3B7Bc87C264B43D389924155C29D48C3Webp.webp"
+        },
+        {
+          "id": "xazg4Wed6CLygAi",
+          "name": "li 3",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/li3.png"
+        },
+        {
+          "id": "YTAl-JalbkNRNkB",
+          "name": "star.png 3",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/starpng3.png"
+        },
+        {
+          "id": "DVnF-YsuI-Zap9r",
+          "name": "paymentlogo.avif",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/paymentlogoavif.avif"
+        },
+        {
+          "id": "1BSM78C4zLF0d73",
+          "name": "bannerrev_e286f026-53c5-463d-95e1-7d983a6a0996.webp",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/bannerrevE286F02653C5463D95E17D983A6A0996Webp.webp"
+        },
+        {
+          "id": "nK7YXG-OlNhRUgL",
+          "name": "5a18637b3a18271ae9cd636b_1_77c5b246-4f6c-4a1d-b6c8-5c4eb7fb4a85.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/_5A18637B3A18271Ae9Cd636B177C5B2464F6C4A1DB6C85C4Eb7Fb4A85Png.png"
+        },
+        {
+          "id": "4iVIoDUgdwISaH9",
+          "name": "800px-Indiegogo_logo_87e824db-34f7-4415-9219-ab56dca36549.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/_800PxIndiegogoLogo87E824Db34F744159219Ab56Dca36549Png.png"
+        },
+        {
+          "id": "Tb9h4rm8GXjgiYB",
+          "name": "800px-Indiegogo_logo_87e824db-34f7-4415-9219-ab56dca36549.webp",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/_800PxIndiegogoLogo87E824Db34F744159219Ab56Dca36549Webp.webp"
+        },
+        {
+          "id": "UI_ZpewsQASu61Q",
+          "name": "1200px-Scientific_American_logo.svg_9440dc46-eee2-4228-b6a5-e91e5b0c8581.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/_1200PxScientificAmericanLogosvg9440Dc46Eee24228B6A5E91E5B0C8581Png.png"
+        },
+        {
+          "id": "jBtai23rA70A4_I",
+          "name": "1200px-Scientific_American_logo.svg_9440dc46-eee2-4228-b6a5-e91e5b0c8581.webp",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/_1200PxScientificAmericanLogosvg9440Dc46Eee24228B6A5E91E5B0C8581Webp.webp"
+        },
+        {
+          "id": "t6xaN4qiImE4KzP",
+          "name": "asfeaturedin4_9bda2aea-3ea9-4d3c-bd4f-7d2ad76ae608.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/asfeaturedin49Bda2Aea3Ea94D3CBd4F7D2Ad76Ae608Png.png"
+        },
+        {
+          "id": "60TXHc91Sn2DTW0",
+          "name": "asfeaturedin4_9bda2aea-3ea9-4d3c-bd4f-7d2ad76ae608.webp",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/asfeaturedin49Bda2Aea3Ea94D3CBd4F7D2Ad76Ae608Webp.webp"
+        },
+        {
+          "id": "gozaHmScIpok-5h",
+          "name": "Entrepreneur_logo_484ccefe-4c85-4084-bc8c-12af7a590ec0.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/entrepreneurLogo484Ccefe4C854084Bc8C12Af7A590Ec0Png.png"
+        },
+        {
+          "id": "ynR-L-C3coBSQXk",
+          "name": "Entrepreneur_logo_484ccefe-4c85-4084-bc8c-12af7a590ec0.webp",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/entrepreneurLogo484Ccefe4C854084Bc8C12Af7A590Ec0Webp.webp"
+        },
+        {
+          "id": "JNNqTtvNhZMx_RM",
+          "name": "confidencee_fdabb2f0-6360-4ed7-8f96-dc94bfa29f15.webp",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/confidenceeFdabb2F063604Ed78F96Dc94Bfa29F15Webp.webp"
+        },
+        {
+          "id": "7yzN-6PluAplmVf",
+          "name": "Sparq_box_animation_loop_shorter_version.webp",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/sparqBoxAnimationLoopShorterVersionwebp.webp"
+        },
+        {
+          "id": "hZ-qw_-jWJihKL-",
+          "name": "My_project.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/myProjectpng.png"
+        },
+        {
+          "id": "83MeQNJdQKCb8Xg",
+          "name": "My_project.avif",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/myProjectavif.avif"
+        },
+        {
+          "id": "g7PA6wPpWfncbt4",
+          "name": "My_project-2.avif",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/myProject2Avif.avif"
+        },
+        {
+          "id": "TLF7ZEmP4XSmtkD",
+          "name": "My_project-5.avif",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/myProject5Avif.avif"
+        },
+        {
+          "id": "iWIz-rP1nu4eM8o",
+          "name": "My_project-3.avif",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/myProject3Avif.avif"
+        },
+        {
+          "id": "zlH9NKYByvsomx3",
+          "name": "My_project-7.avif",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/myProject7Avif.avif"
+        },
+        {
+          "id": "jikAvcU3PI8v11i",
+          "name": "My_project-6.avif",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/myProject6Avif.avif"
+        },
+        {
+          "id": "DAXONuOuCaNojk6",
+          "name": "My_project-4.avif",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/myProject4Avif.avif"
+        },
+        {
+          "id": "GdYxLHAnyTXPp8e",
+          "name": "promissory_700cba5a-b826-4b5c-8106-987450146e3b.webp",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/promissory700Cba5AB8264B5C8106987450146E3Bwebp.webp"
+        },
+        {
+          "id": "8Rve4n-ADouvDaa",
+          "name": "promissoryitem1_cb038f04-1a2b-4c5b-af99-95014e9df68f.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/promissoryitem1Cb038F041A2B4C5BAf9995014E9Df68Fpng.png"
+        },
+        {
+          "id": "DupZys5Dw4uvseo",
+          "name": "promissoryitem1_cb038f04-1a2b-4c5b-af99-95014e9df68f.webp",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/promissoryitem1Cb038F041A2B4C5BAf9995014E9Df68Fwebp.webp"
+        },
+        {
+          "id": "_YpRiwfHqNu4Aw1",
+          "name": "promissoryitem2_d1cae334-b4ca-4e4f-8fba-fc3f796c4042.avif",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/promissoryitem2D1Cae334B4Ca4E4F8FbaFc3F796C4042Avif.avif"
+        },
+        {
+          "id": "KNrKEEci7z1B9li",
+          "name": "promissoryitem3_674784dc-9a84-4f5a-8b80-175ce3e3f7c3.avif",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/promissoryitem3674784Dc9A844F5A8B80175Ce3E3F7C3Avif.avif"
+        },
+        {
+          "id": "tnXec71hBbTSd7a",
+          "name": "rightarr.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/rightarrpng.png"
+        },
+        {
+          "id": "K4SiLsq0xOQY9bq",
+          "name": "verify.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/verifypng.png"
+        },
+        {
+          "id": "s1UltxON0JshWwD",
+          "name": "sidereview2.png 2",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/sidereview2Png2.png"
+        },
+        {
+          "id": "6vmM_JaN-l2R3pr",
+          "name": "sidereview3.png 2",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/sidereview3Png2.png"
+        },
+        {
+          "id": "ht3iuG3nopPUDPu",
+          "name": "1-file6211298211357-Hong-Kong.jpg",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/_1File6211298211357HongKongjpg.jpg"
+        },
+        {
+          "id": "UdGR_EoYF68HuYu",
+          "name": "1-b47c24ead8b3efc82ba6437d4e8b239d_morguefile_denmark.jpg",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/_1B47C24Ead8B3Efc82Ba6437D4E8B239DMorguefileDenmarkjpg.jpg"
+        },
+        {
+          "id": "84O1oeClRbZPa1t",
+          "name": "Arabic_United-Arab-Emirates_Dubai-962785-1920.jpg",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/arabicUnitedArabEmiratesDubai9627851920Jpg.jpg"
+        },
+        {
+          "id": "NGvgYL8iom53oVv",
+          "name": "moneybackleft.webp",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/moneybackleftwebp.webp"
+        },
+        {
+          "id": "r_juv-iMGiZTNoW",
+          "name": "Group_8.webp",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/group8Webp.webp"
+        },
+        {
+          "id": "kbGUDntLWbjT5i0",
+          "name": "paymentlogo (4).avif",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/paymentlogo4Avif.avif"
+        },
+        {
+          "id": "geTE4x9WaIxVxBU",
+          "name": "moneybackright.webp",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/moneybackrightwebp.webp"
+        },
+        {
+          "id": "9HWjYdQvmc_bB15",
+          "name": "3.avif",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/_3Avif.avif"
+        },
+        {
+          "id": "fkCva5zdZje_ZjD",
+          "name": "paymenticons.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/paymenticonspng.png"
+        },
+        {
+          "id": "ckwALDlsn5ahkri",
+          "name": "freeship.avif",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/freeshipavif.avif"
+        },
+        {
+          "id": "i2Qq3RBR48uehcy",
+          "name": "6.webp",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/_6Webp.webp"
+        },
+        {
+          "id": "y7wBFQLALyuPmhT",
+          "name": "getyourvitamin1.avif",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/getyourvitamin1Avif.avif"
+        },
+        {
+          "id": "DdNzVz-6CvuI22J",
+          "name": "LADYBAGUETTE2020IMG_3156-Edit_2.jpg 2",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/ladybaguette2020Img3156Edit2Jpg2.jpg"
+        },
+        {
+          "id": "jw1z1wFr9Yoaefq",
+          "name": "paymentlogo.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/paymentlogopng.png"
+        },
+        {
+          "id": "W-4UlZ7N3kvx1vt",
+          "name": "My_project.webp",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/myProjectwebp.webp"
+        },
+        {
+          "id": "m2_aRjT0E76pGk_",
+          "name": "My_project-2.webp",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/myProject2Webp.webp"
+        },
+        {
+          "id": "_pGaYVVnBkC2nWJ",
+          "name": "sidereview2.avif",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/sidereview2Avif.avif"
+        },
+        {
+          "id": "-7Mh6ET_-UAiGsL",
+          "name": "freeship.png 2",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/freeshippng2.png"
+        },
+        {
+          "id": "PL2McfTzWJCPYLg",
+          "name": "Sparq_Logo_Final-03_1_-removebg-preview_3b7bc87c-264b-43d3-8992-4155c29d48c3.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/sparqLogoFinal031RemovebgPreview3B7Bc87C264B43D389924155C29D48C3Png.png"
+        },
+        {
+          "id": "5DltziIe0Amjq45",
+          "name": "hand.svg 8",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/handsvg8.svg"
+        },
+        {
+          "id": "GflXSjX780K8wmF",
+          "name": "bannerrev_e286f026-53c5-463d-95e1-7d983a6a0996.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/bannerrevE286F02653C5463D95E17D983A6A0996Png.png"
+        },
+        {
+          "id": "m4QN--2LpYkGyLg",
+          "name": "confidencee_fdabb2f0-6360-4ed7-8f96-dc94bfa29f15.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/confidenceeFdabb2F063604Ed78F96Dc94Bfa29F15Png.png"
+        },
+        {
+          "id": "4q9CechVe5_mRvk",
+          "name": "Sparq_box_animation_loop_shorter_version.gif 2",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/sparqBoxAnimationLoopShorterVersiongif2.png"
+        },
+        {
+          "id": "gE5bonHlldtKrok",
+          "name": "hand.svg 7",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/handsvg7.svg"
+        },
+        {
+          "id": "ye8Y6ShJWJ5xll7",
+          "name": "My_project-2.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/myProject2Png.png"
+        },
+        {
+          "id": "9qbfloaUSMdTvjc",
+          "name": "My_project-5.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/myProject5Png.png"
+        },
+        {
+          "id": "TBghg1NfS-J-Dw2",
+          "name": "My_project-3.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/myProject3Png.png"
+        },
+        {
+          "id": "wG_sCwh6qpYBgek",
+          "name": "My_project-7.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/myProject7Png.png"
+        },
+        {
+          "id": "xX7SVeJaBeEj68R",
+          "name": "My_project-6.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/myProject6Png.png"
+        },
+        {
+          "id": "uk1ULq8-tBpO4Ee",
+          "name": "My_project-4.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/myProject4Png.png"
+        },
+        {
+          "id": "LdhayjAjazZtD4r",
+          "name": "promissory_700cba5a-b826-4b5c-8106-987450146e3b.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/promissory700Cba5AB8264B5C8106987450146E3Bpng.jpg"
+        },
+        {
+          "id": "E3eTv1fEyyQu200",
+          "name": "promissoryitem2_d1cae334-b4ca-4e4f-8fba-fc3f796c4042.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/promissoryitem2D1Cae334B4Ca4E4F8FbaFc3F796C4042Png.png"
+        },
+        {
+          "id": "PvIG2Wn0_ggeu3Q",
+          "name": "promissoryitem3_674784dc-9a84-4f5a-8b80-175ce3e3f7c3.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/promissoryitem3674784Dc9A844F5A8B80175Ce3E3F7C3Png.png"
+        },
+        {
+          "id": "h4NrLepeTYsPbMb",
+          "name": "hand.svg 6",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/handsvg6.svg"
+        },
+        {
+          "id": "7urrYUign4WTZ5y",
+          "name": "leftarr.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/leftarrpng.png"
+        },
+        {
+          "id": "uizcXlRwGjrYc--",
+          "name": "Group_8.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/group8Png.png"
+        },
+        {
+          "id": "5pGx1BGHHWNuNjQ",
+          "name": "moneybackleft.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/moneybackleftpng.png"
+        },
+        {
+          "id": "oRHqOnIjYzS32YO",
+          "name": "moneybackright.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/moneybackrightpng.png"
+        },
+        {
+          "id": "icYR19mOQCYcpwz",
+          "name": "hand.svg 5",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/handsvg5.svg"
+        },
+        {
+          "id": "_iX6X6zRijv8gTr",
+          "name": "paymentlogo.png 3",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/paymentlogopng3.png"
+        },
+        {
+          "id": "cdsSbR3h2B6AHW2",
+          "name": "3.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/_3Png.png"
+        },
+        {
+          "id": "UNi8utTLH-Uafjp",
+          "name": "hand.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/handpng.png"
+        },
+        {
+          "id": "zu667_esHuiFZjU",
+          "name": "freeship.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/freeshippng.png"
+        },
+        {
+          "id": "cHRZuKoWjZ1od9f",
+          "name": "6.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/_6Png.png"
+        },
+        {
+          "id": "b7rMDzUMwSRoURg",
+          "name": "getyourvitamin1.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/getyourvitamin1Png.png"
+        },
+        {
+          "id": "gGkNSM7t6j0mv5w",
+          "name": "Sparq_Logo_Final-03_1_1.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/sparqLogoFinal0311Png.png"
+        },
+        {
+          "id": "WmUe09TVdV8eViU",
+          "name": "Royal-Kingdom-Honey-Logo-Black-2 1.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/royalKingdomHoneyLogoBlack21Png.png"
+        },
+        {
+          "id": "T9HBOkT4yLIb9tv",
+          "name": "honey bg.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/honeyBgpng.png"
+        },
+        {
+          "id": "SvBvbwAWEB1IKMD",
+          "name": "avatar 1.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/avatar1Png.png"
+        },
+        {
+          "id": "cPr4n2r3bahXxdf",
+          "name": "Web Honey - 1.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/webHoney1Png.png"
+        },
+        {
+          "id": "2wPMzm3mhdp6I0g",
+          "name": "Web Honey - 2.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/webHoney2Png.png"
+        },
+        {
+          "id": "lF5xuWVOVOGPHL_",
+          "name": "Honey - Time Icon.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/honeyTimeIconpng.png"
+        },
+        {
+          "id": "stAQ6SjcQ-JZ-DN",
+          "name": "Honey - Time Icon.svg",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/honeyTimeIconsvg.svg"
+        },
+        {
+          "id": "J-v2OqSPAuWB5wp",
+          "name": "Honey - Time Icon.png 2",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/honeyTimeIconpng2.png"
+        },
+        {
+          "id": "O_wln3hbJCnDBcR",
+          "name": "Honey - Increase Icon.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/honeyIncreaseIconpng.png"
+        },
+        {
+          "id": "QyXbRZqY7MHz-FT",
+          "name": "Honey - Performance Icon.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/honeyPerformanceIconpng.png"
+        },
+        {
+          "id": "Sbo4qK28_ss-c9v",
+          "name": "Honey - Long Lasting Icon.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/honeyLongLastingIconpng.png"
+        },
+        {
+          "id": "XG-gNWghiKArkY1",
+          "name": "Honey - Produce Icon.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/honeyProduceIconpng.png"
+        },
+        {
+          "id": "AVM1bgF5FHwRAZY",
+          "name": "Honey - Size Icon.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/honeySizeIconpng.png"
+        },
+        {
+          "id": "wN3XvArXXTvXmdb",
+          "name": "Honey - Early Icon.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/honeyEarlyIconpng.png"
+        },
+        {
+          "id": "sZ2ar4UqtadYOZo",
+          "name": "Honey - Supply Icon.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/honeySupplyIconpng.png"
+        },
+        {
+          "id": "b4VEJDBFRQRl4lf",
+          "name": "Honey - Screw Icon.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/honeyScrewIconpng.png"
+        },
+        {
+          "id": "_C98VElz5katv_d",
+          "name": "Honey - Discount Icon.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/honeyDiscountIconpng.png"
+        },
+        {
+          "id": "NvfhixTiG7x1xE4",
+          "name": "Web Honey - 4.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/webHoney4Png.png"
+        },
+        {
+          "id": "EGcnt3QEHb6TgfH",
+          "name": "Honey-Offer-1.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/honeyOffer1Png.png"
+        },
+        {
+          "id": "ZMhEfVo7k5U4vFt",
+          "name": "avatar 3.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/avatar3Png.png"
+        },
+        {
+          "id": "JCt4I2VP5KQ-xFz",
+          "name": "avatar 2.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/avatar2Png.png"
+        },
+        {
+          "id": "Lf1Othfr5CvMjwz",
+          "name": "Web Honey - 3.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/webHoney3Png.png"
+        },
+        {
+          "id": "6cfueoB0UZpj79N",
+          "name": "Honey Web Moile - 1.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/honeyWebMoile1Png.png"
+        },
+        {
+          "id": "JvwmJ86J3dreBKA",
+          "name": "HONEY - OFFER - FREE.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/honeyOfferFreEpng.png"
+        },
+        {
+          "id": "IDAa-pYLmb20JiK",
+          "name": "Tribulus-Terrestris-1.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/tribulusTerrestris1Png.png"
+        },
+        {
+          "id": "7RmAk8HLVaqDUHE",
+          "name": "maca-root.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/macaRootpng.png"
+        },
+        {
+          "id": "xKd5LFfoLahE0-8",
+          "name": "Screenshot_2023-06-06_at_10_08_16_AM.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/screenshot20230606At100816AMpng.png"
+        },
+        {
+          "id": "7TpwRjRMlgjkvd2",
+          "name": "Insam_(ginseng).png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/insamGinsengpng.png"
+        },
+        {
+          "id": "wU8FMbN9Y_Bhsnl",
+          "name": "Screenshot_2023-06-06_at_10_09_27_AM.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/screenshot20230606At100927AMpng.png"
+        },
+        {
+          "id": "TgGthVTGIx8-JkV",
+          "name": "hero1.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/hero1Png.png"
+        },
+        {
+          "id": "4eXRzgHV4B5rWHm",
+          "name": "Honey Hero BG 2.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/honeyHeroBg2Png.png"
+        },
+        {
+          "id": "KUcE9ckXJR0nqbO",
+          "name": "Web Honey - 7.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/webHoney7Png.png"
+        },
+        {
+          "id": "0KhMGQ0BZnCsTDQ",
+          "name": "Web Honey - 8.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/webHoney8Png.png"
+        },
+        {
+          "id": "CWxdsgY-5w1SlkM",
+          "name": "Honey Web Moile - 2.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/honeyWebMoile2Png.png"
+        },
+        {
+          "id": "oesu2_BjlJ-Spjr",
+          "name": "Honey Web Moile - 4.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/honeyWebMoile4Png.png"
+        },
+        {
+          "id": "QwVS7zzurL45z65",
+          "name": "Honey Web Moile - 5.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/honeyWebMoile5Png.png"
+        },
+        {
+          "id": "MjU0qdVgKGPxCc6",
+          "name": "honey web moved.png",
+          "filePath": "../public/plasmic/deployed_royal_honey_offer_component/images/honeyWebMovedpng.png"
+        }
+      ],
+      "indirect": false,
+      "globalContextsFilePath": "plasmic/deployed_royal_honey_offer_component/PlasmicGlobalContextsProvider.tsx",
+      "codeComponents": [
+        {
+          "id": "WMlZeivf1ThVJ",
+          "name": "PlasmicHead",
+          "displayName": "hostless-plasmic-head",
+          "componentImportPath": "@plasmicapp/react-web"
+        },
+        {
+          "id": "6QC_Cu-bT-iLLE",
+          "name": "Fetcher",
+          "displayName": "plasmic-data-source-fetcher",
+          "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
+        }
+      ]
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "a_FcxzchOaTtwfH",
+        "name": "Screen",
+        "projectId": "dGhXFrWhKMiTmf4n16zhxF",
+        "contextFilePath": "plasmic/deployed_royal_honey_offer_component/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "nextjsConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.292",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.292/dist/plasmic.schema.json"
+}
