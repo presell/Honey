@@ -7,7 +7,7 @@
   },
   "style": {
     "scheme": "css-modules",
-    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
   },
   "images": {
     "scheme": "public-files",
@@ -39,7 +39,8 @@
           "displayName": "hostless-slider",
           "componentImportPath": "react-slick"
         }
-      ]
+      ],
+      "jsBundleThemes": []
     },
     {
       "projectId": "caTPwKxj5ZrD9LQ7DMdK4Z",
@@ -77,7 +78,8 @@
           "displayName": "hostless-data-provider",
           "componentImportPath": "@plasmicpkgs/plasmic-basic-components"
         }
-      ]
+      ],
+      "jsBundleThemes": []
     },
     {
       "projectId": "7nJ7UcFmq9UzB6eXfC5z4a",
@@ -97,7 +99,8 @@
           "displayName": "hostless-plasmic-navigation-bar",
           "componentImportPath": "@plasmicpkgs/plasmic-nav"
         }
-      ]
+      ],
+      "jsBundleThemes": []
     },
     {
       "projectId": "kmmGrmCVRJPgZ5NNJMDQ4v",
@@ -129,7 +132,8 @@
           "displayName": "WordpressProvider",
           "componentImportPath": "@plasmicpkgs/plasmic-wordpress"
         }
-      ]
+      ],
+      "jsBundleThemes": []
     },
     {
       "projectId": "hjKYmYi6HMwK6TRyk7ew5R",
@@ -179,7 +183,8 @@
           "displayName": "hostless-plasmic-cms-query-repeater",
           "componentImportPath": "@plasmicpkgs/plasmic-cms"
         }
-      ]
+      ],
+      "jsBundleThemes": []
     },
     {
       "projectId": "YUiM7yqBWAqsh8KSnrdj7",
@@ -205,7 +210,8 @@
           "displayName": "hostless-plasmic-query-graphql-fetcher",
           "componentImportPath": "@plasmicpkgs/plasmic-query"
         }
-      ]
+      ],
+      "jsBundleThemes": []
     },
     {
       "projectId": "dGhXFrWhKMiTmf4n16zhxF",

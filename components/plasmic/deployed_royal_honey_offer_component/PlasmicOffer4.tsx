@@ -180,14 +180,28 @@ function PlasmicOffer4__RenderFunc(props: {
                 )}
                 onClick={async event => {
                   const $steps = {};
-                  $steps["goToCollection13"] = true
+                  $steps[
+                    "goToHttpsroyalkingdomhoneycomcheckoutaddToCart19817Quantity2"
+                  ] = true
                     ? (() => {
-                        const actionArgs = {};
+                        const actionArgs = {
+                          destination: __wrapUserFunction(
+                            {
+                              type: "InteractionArgLoc",
+                              actionName: "navigation",
+                              interactionUuid: "LClSIjFwa",
+                              componentUuid: "iKKsx8vJS-ZxVSM",
+                              argName: "destination"
+                            },
+                            () =>
+                              "https://royalkingdomhoney.com/checkout/?add-to-cart=19817&quantity=2"
+                          )
+                        };
                         return __wrapUserFunction(
                           {
                             type: "InteractionLoc",
                             actionName: "navigation",
-                            interactionUuid: "6NPxGsKBMREYXHB",
+                            interactionUuid: "LClSIjFwa",
                             componentUuid: "iKKsx8vJS-ZxVSM"
                           },
                           () =>
@@ -199,17 +213,25 @@ function PlasmicOffer4__RenderFunc(props: {
                       })()
                     : undefined;
                   if (
-                    typeof $steps["goToCollection13"] === "object" &&
-                    typeof $steps["goToCollection13"].then === "function"
+                    typeof $steps[
+                      "goToHttpsroyalkingdomhoneycomcheckoutaddToCart19817Quantity2"
+                    ] === "object" &&
+                    typeof $steps[
+                      "goToHttpsroyalkingdomhoneycomcheckoutaddToCart19817Quantity2"
+                    ].then === "function"
                   ) {
-                    $steps["goToCollection13"] = await __wrapUserPromise(
+                    $steps[
+                      "goToHttpsroyalkingdomhoneycomcheckoutaddToCart19817Quantity2"
+                    ] = await __wrapUserPromise(
                       {
                         type: "InteractionLoc",
                         actionName: "navigation",
-                        interactionUuid: "6NPxGsKBMREYXHB",
+                        interactionUuid: "LClSIjFwa",
                         componentUuid: "iKKsx8vJS-ZxVSM"
                       },
-                      $steps["goToCollection13"]
+                      $steps[
+                        "goToHttpsroyalkingdomhoneycomcheckoutaddToCart19817Quantity2"
+                      ]
                     );
                   }
                 }}
@@ -480,14 +502,28 @@ function PlasmicOffer4__RenderFunc(props: {
                         )}
                         onClick={async event => {
                           const $steps = {};
-                          $steps["goToCollection13"] = true
+                          $steps[
+                            "goToHttpsroyalkingdomhoneycomcheckoutaddToCart19817Quantity2"
+                          ] = true
                             ? (() => {
-                                const actionArgs = {};
+                                const actionArgs = {
+                                  destination: __wrapUserFunction(
+                                    {
+                                      type: "InteractionArgLoc",
+                                      actionName: "navigation",
+                                      interactionUuid: "iLJbnjLaJ",
+                                      componentUuid: "iKKsx8vJS-ZxVSM",
+                                      argName: "destination"
+                                    },
+                                    () =>
+                                      "https://royalkingdomhoney.com/checkout/?add-to-cart=19817&quantity=2"
+                                  )
+                                };
                                 return __wrapUserFunction(
                                   {
                                     type: "InteractionLoc",
                                     actionName: "navigation",
-                                    interactionUuid: "6BisliHjJjB5Jud",
+                                    interactionUuid: "iLJbnjLaJ",
                                     componentUuid: "iKKsx8vJS-ZxVSM"
                                   },
                                   () =>
@@ -499,20 +535,26 @@ function PlasmicOffer4__RenderFunc(props: {
                               })()
                             : undefined;
                           if (
-                            typeof $steps["goToCollection13"] === "object" &&
-                            typeof $steps["goToCollection13"].then ===
-                              "function"
+                            typeof $steps[
+                              "goToHttpsroyalkingdomhoneycomcheckoutaddToCart19817Quantity2"
+                            ] === "object" &&
+                            typeof $steps[
+                              "goToHttpsroyalkingdomhoneycomcheckoutaddToCart19817Quantity2"
+                            ].then === "function"
                           ) {
-                            $steps["goToCollection13"] =
-                              await __wrapUserPromise(
-                                {
-                                  type: "InteractionLoc",
-                                  actionName: "navigation",
-                                  interactionUuid: "6BisliHjJjB5Jud",
-                                  componentUuid: "iKKsx8vJS-ZxVSM"
-                                },
-                                $steps["goToCollection13"]
-                              );
+                            $steps[
+                              "goToHttpsroyalkingdomhoneycomcheckoutaddToCart19817Quantity2"
+                            ] = await __wrapUserPromise(
+                              {
+                                type: "InteractionLoc",
+                                actionName: "navigation",
+                                interactionUuid: "iLJbnjLaJ",
+                                componentUuid: "iKKsx8vJS-ZxVSM"
+                              },
+                              $steps[
+                                "goToHttpsroyalkingdomhoneycomcheckoutaddToCart19817Quantity2"
+                              ]
+                            );
                           }
                         }}
                       >
@@ -1008,14 +1050,28 @@ function PlasmicOffer4__RenderFunc(props: {
                   )}
                   onClick={async event => {
                     const $steps = {};
-                    $steps["goToCollection13"] = true
+                    $steps[
+                      "goToHttpsroyalkingdomhoneycomcheckoutaddToCart19817Quantity2"
+                    ] = true
                       ? (() => {
-                          const actionArgs = {};
+                          const actionArgs = {
+                            destination: __wrapUserFunction(
+                              {
+                                type: "InteractionArgLoc",
+                                actionName: "navigation",
+                                interactionUuid: "j4S4BTGN3",
+                                componentUuid: "iKKsx8vJS-ZxVSM",
+                                argName: "destination"
+                              },
+                              () =>
+                                "https://royalkingdomhoney.com/checkout/?add-to-cart=19817&quantity=2"
+                            )
+                          };
                           return __wrapUserFunction(
                             {
                               type: "InteractionLoc",
                               actionName: "navigation",
-                              interactionUuid: "9HjEpnwtlOki9hK",
+                              interactionUuid: "j4S4BTGN3",
                               componentUuid: "iKKsx8vJS-ZxVSM"
                             },
                             () =>
@@ -1027,17 +1083,25 @@ function PlasmicOffer4__RenderFunc(props: {
                         })()
                       : undefined;
                     if (
-                      typeof $steps["goToCollection13"] === "object" &&
-                      typeof $steps["goToCollection13"].then === "function"
+                      typeof $steps[
+                        "goToHttpsroyalkingdomhoneycomcheckoutaddToCart19817Quantity2"
+                      ] === "object" &&
+                      typeof $steps[
+                        "goToHttpsroyalkingdomhoneycomcheckoutaddToCart19817Quantity2"
+                      ].then === "function"
                     ) {
-                      $steps["goToCollection13"] = await __wrapUserPromise(
+                      $steps[
+                        "goToHttpsroyalkingdomhoneycomcheckoutaddToCart19817Quantity2"
+                      ] = await __wrapUserPromise(
                         {
                           type: "InteractionLoc",
                           actionName: "navigation",
-                          interactionUuid: "9HjEpnwtlOki9hK",
+                          interactionUuid: "j4S4BTGN3",
                           componentUuid: "iKKsx8vJS-ZxVSM"
                         },
-                        $steps["goToCollection13"]
+                        $steps[
+                          "goToHttpsroyalkingdomhoneycomcheckoutaddToCart19817Quantity2"
+                        ]
                       );
                     }
                   }}
@@ -1969,14 +2033,28 @@ function PlasmicOffer4__RenderFunc(props: {
                   )}
                   onClick={async event => {
                     const $steps = {};
-                    $steps["goToCollection13"] = true
+                    $steps[
+                      "goToHttpsroyalkingdomhoneycomcheckoutaddToCart19817Quantity2"
+                    ] = true
                       ? (() => {
-                          const actionArgs = {};
+                          const actionArgs = {
+                            destination: __wrapUserFunction(
+                              {
+                                type: "InteractionArgLoc",
+                                actionName: "navigation",
+                                interactionUuid: "Laeu7mdkG",
+                                componentUuid: "iKKsx8vJS-ZxVSM",
+                                argName: "destination"
+                              },
+                              () =>
+                                "https://royalkingdomhoney.com/checkout/?add-to-cart=19817&quantity=2"
+                            )
+                          };
                           return __wrapUserFunction(
                             {
                               type: "InteractionLoc",
                               actionName: "navigation",
-                              interactionUuid: "9e7JXFbNluFw2kG",
+                              interactionUuid: "Laeu7mdkG",
                               componentUuid: "iKKsx8vJS-ZxVSM"
                             },
                             () =>
@@ -1988,17 +2066,25 @@ function PlasmicOffer4__RenderFunc(props: {
                         })()
                       : undefined;
                     if (
-                      typeof $steps["goToCollection13"] === "object" &&
-                      typeof $steps["goToCollection13"].then === "function"
+                      typeof $steps[
+                        "goToHttpsroyalkingdomhoneycomcheckoutaddToCart19817Quantity2"
+                      ] === "object" &&
+                      typeof $steps[
+                        "goToHttpsroyalkingdomhoneycomcheckoutaddToCart19817Quantity2"
+                      ].then === "function"
                     ) {
-                      $steps["goToCollection13"] = await __wrapUserPromise(
+                      $steps[
+                        "goToHttpsroyalkingdomhoneycomcheckoutaddToCart19817Quantity2"
+                      ] = await __wrapUserPromise(
                         {
                           type: "InteractionLoc",
                           actionName: "navigation",
-                          interactionUuid: "9e7JXFbNluFw2kG",
+                          interactionUuid: "Laeu7mdkG",
                           componentUuid: "iKKsx8vJS-ZxVSM"
                         },
-                        $steps["goToCollection13"]
+                        $steps[
+                          "goToHttpsroyalkingdomhoneycomcheckoutaddToCart19817Quantity2"
+                        ]
                       );
                     }
                   }}
@@ -3973,14 +4059,28 @@ function PlasmicOffer4__RenderFunc(props: {
                     )}
                     onClick={async event => {
                       const $steps = {};
-                      $steps["goToCollection13"] = true
+                      $steps[
+                        "goToHttpsroyalkingdomhoneycomcheckoutaddToCart19817Quantity2"
+                      ] = true
                         ? (() => {
-                            const actionArgs = {};
+                            const actionArgs = {
+                              destination: __wrapUserFunction(
+                                {
+                                  type: "InteractionArgLoc",
+                                  actionName: "navigation",
+                                  interactionUuid: "x37Z6DAEY",
+                                  componentUuid: "iKKsx8vJS-ZxVSM",
+                                  argName: "destination"
+                                },
+                                () =>
+                                  "https://royalkingdomhoney.com/checkout/?add-to-cart=19817&quantity=2"
+                              )
+                            };
                             return __wrapUserFunction(
                               {
                                 type: "InteractionLoc",
                                 actionName: "navigation",
-                                interactionUuid: "x9b9ZK8P4GERUbK",
+                                interactionUuid: "x37Z6DAEY",
                                 componentUuid: "iKKsx8vJS-ZxVSM"
                               },
                               () =>
@@ -3992,17 +4092,25 @@ function PlasmicOffer4__RenderFunc(props: {
                           })()
                         : undefined;
                       if (
-                        typeof $steps["goToCollection13"] === "object" &&
-                        typeof $steps["goToCollection13"].then === "function"
+                        typeof $steps[
+                          "goToHttpsroyalkingdomhoneycomcheckoutaddToCart19817Quantity2"
+                        ] === "object" &&
+                        typeof $steps[
+                          "goToHttpsroyalkingdomhoneycomcheckoutaddToCart19817Quantity2"
+                        ].then === "function"
                       ) {
-                        $steps["goToCollection13"] = await __wrapUserPromise(
+                        $steps[
+                          "goToHttpsroyalkingdomhoneycomcheckoutaddToCart19817Quantity2"
+                        ] = await __wrapUserPromise(
                           {
                             type: "InteractionLoc",
                             actionName: "navigation",
-                            interactionUuid: "x9b9ZK8P4GERUbK",
+                            interactionUuid: "x37Z6DAEY",
                             componentUuid: "iKKsx8vJS-ZxVSM"
                           },
-                          $steps["goToCollection13"]
+                          $steps[
+                            "goToHttpsroyalkingdomhoneycomcheckoutaddToCart19817Quantity2"
+                          ]
                         );
                       }
                     }}
@@ -4052,14 +4160,28 @@ function PlasmicOffer4__RenderFunc(props: {
               )}
               onClick={async event => {
                 const $steps = {};
-                $steps["goToCollection13"] = true
+                $steps[
+                  "goToHttpsroyalkingdomhoneycomcheckoutaddToCart19817Quantity2"
+                ] = true
                   ? (() => {
-                      const actionArgs = {};
+                      const actionArgs = {
+                        destination: __wrapUserFunction(
+                          {
+                            type: "InteractionArgLoc",
+                            actionName: "navigation",
+                            interactionUuid: "xHOBAgWFP",
+                            componentUuid: "iKKsx8vJS-ZxVSM",
+                            argName: "destination"
+                          },
+                          () =>
+                            "https://royalkingdomhoney.com/checkout/?add-to-cart=19817&quantity=2"
+                        )
+                      };
                       return __wrapUserFunction(
                         {
                           type: "InteractionLoc",
                           actionName: "navigation",
-                          interactionUuid: "qDlDPLduF28o9T_",
+                          interactionUuid: "xHOBAgWFP",
                           componentUuid: "iKKsx8vJS-ZxVSM"
                         },
                         () =>
@@ -4071,17 +4193,25 @@ function PlasmicOffer4__RenderFunc(props: {
                     })()
                   : undefined;
                 if (
-                  typeof $steps["goToCollection13"] === "object" &&
-                  typeof $steps["goToCollection13"].then === "function"
+                  typeof $steps[
+                    "goToHttpsroyalkingdomhoneycomcheckoutaddToCart19817Quantity2"
+                  ] === "object" &&
+                  typeof $steps[
+                    "goToHttpsroyalkingdomhoneycomcheckoutaddToCart19817Quantity2"
+                  ].then === "function"
                 ) {
-                  $steps["goToCollection13"] = await __wrapUserPromise(
+                  $steps[
+                    "goToHttpsroyalkingdomhoneycomcheckoutaddToCart19817Quantity2"
+                  ] = await __wrapUserPromise(
                     {
                       type: "InteractionLoc",
                       actionName: "navigation",
-                      interactionUuid: "qDlDPLduF28o9T_",
+                      interactionUuid: "xHOBAgWFP",
                       componentUuid: "iKKsx8vJS-ZxVSM"
                     },
-                    $steps["goToCollection13"]
+                    $steps[
+                      "goToHttpsroyalkingdomhoneycomcheckoutaddToCart19817Quantity2"
+                    ]
                   );
                 }
               }}
@@ -4330,14 +4460,28 @@ function PlasmicOffer4__RenderFunc(props: {
               )}
               onClick={async event => {
                 const $steps = {};
-                $steps["goToCollection13"] = true
+                $steps[
+                  "goToHttpsroyalkingdomhoneycomcheckoutaddToCart19817Quantity2"
+                ] = true
                   ? (() => {
-                      const actionArgs = {};
+                      const actionArgs = {
+                        destination: __wrapUserFunction(
+                          {
+                            type: "InteractionArgLoc",
+                            actionName: "navigation",
+                            interactionUuid: "9kkgUfbaC",
+                            componentUuid: "iKKsx8vJS-ZxVSM",
+                            argName: "destination"
+                          },
+                          () =>
+                            "https://royalkingdomhoney.com/checkout/?add-to-cart=19817&quantity=2"
+                        )
+                      };
                       return __wrapUserFunction(
                         {
                           type: "InteractionLoc",
                           actionName: "navigation",
-                          interactionUuid: "oBW3cO0XpEXONL4",
+                          interactionUuid: "9kkgUfbaC",
                           componentUuid: "iKKsx8vJS-ZxVSM"
                         },
                         () =>
@@ -4349,17 +4493,25 @@ function PlasmicOffer4__RenderFunc(props: {
                     })()
                   : undefined;
                 if (
-                  typeof $steps["goToCollection13"] === "object" &&
-                  typeof $steps["goToCollection13"].then === "function"
+                  typeof $steps[
+                    "goToHttpsroyalkingdomhoneycomcheckoutaddToCart19817Quantity2"
+                  ] === "object" &&
+                  typeof $steps[
+                    "goToHttpsroyalkingdomhoneycomcheckoutaddToCart19817Quantity2"
+                  ].then === "function"
                 ) {
-                  $steps["goToCollection13"] = await __wrapUserPromise(
+                  $steps[
+                    "goToHttpsroyalkingdomhoneycomcheckoutaddToCart19817Quantity2"
+                  ] = await __wrapUserPromise(
                     {
                       type: "InteractionLoc",
                       actionName: "navigation",
-                      interactionUuid: "oBW3cO0XpEXONL4",
+                      interactionUuid: "9kkgUfbaC",
                       componentUuid: "iKKsx8vJS-ZxVSM"
                     },
-                    $steps["goToCollection13"]
+                    $steps[
+                      "goToHttpsroyalkingdomhoneycomcheckoutaddToCart19817Quantity2"
+                    ]
                   );
                 }
               }}
@@ -4850,14 +5002,28 @@ function PlasmicOffer4__RenderFunc(props: {
               )}
               onClick={async event => {
                 const $steps = {};
-                $steps["goToCollection13"] = true
+                $steps[
+                  "goToHttpsroyalkingdomhoneycomcheckoutaddToCart19817Quantity2"
+                ] = true
                   ? (() => {
-                      const actionArgs = {};
+                      const actionArgs = {
+                        destination: __wrapUserFunction(
+                          {
+                            type: "InteractionArgLoc",
+                            actionName: "navigation",
+                            interactionUuid: "PEwccmwqb",
+                            componentUuid: "iKKsx8vJS-ZxVSM",
+                            argName: "destination"
+                          },
+                          () =>
+                            "https://royalkingdomhoney.com/checkout/?add-to-cart=19817&quantity=2"
+                        )
+                      };
                       return __wrapUserFunction(
                         {
                           type: "InteractionLoc",
                           actionName: "navigation",
-                          interactionUuid: "MLulEcApJ0QWZBy",
+                          interactionUuid: "PEwccmwqb",
                           componentUuid: "iKKsx8vJS-ZxVSM"
                         },
                         () =>
@@ -4869,17 +5035,25 @@ function PlasmicOffer4__RenderFunc(props: {
                     })()
                   : undefined;
                 if (
-                  typeof $steps["goToCollection13"] === "object" &&
-                  typeof $steps["goToCollection13"].then === "function"
+                  typeof $steps[
+                    "goToHttpsroyalkingdomhoneycomcheckoutaddToCart19817Quantity2"
+                  ] === "object" &&
+                  typeof $steps[
+                    "goToHttpsroyalkingdomhoneycomcheckoutaddToCart19817Quantity2"
+                  ].then === "function"
                 ) {
-                  $steps["goToCollection13"] = await __wrapUserPromise(
+                  $steps[
+                    "goToHttpsroyalkingdomhoneycomcheckoutaddToCart19817Quantity2"
+                  ] = await __wrapUserPromise(
                     {
                       type: "InteractionLoc",
                       actionName: "navigation",
-                      interactionUuid: "MLulEcApJ0QWZBy",
+                      interactionUuid: "PEwccmwqb",
                       componentUuid: "iKKsx8vJS-ZxVSM"
                     },
-                    $steps["goToCollection13"]
+                    $steps[
+                      "goToHttpsroyalkingdomhoneycomcheckoutaddToCart19817Quantity2"
+                    ]
                   );
                 }
               }}
@@ -5996,14 +6170,28 @@ function PlasmicOffer4__RenderFunc(props: {
               )}
               onClick={async event => {
                 const $steps = {};
-                $steps["goToCollection13"] = true
+                $steps[
+                  "goToHttpsroyalkingdomhoneycomcheckoutaddToCart19817Quantity2"
+                ] = true
                   ? (() => {
-                      const actionArgs = {};
+                      const actionArgs = {
+                        destination: __wrapUserFunction(
+                          {
+                            type: "InteractionArgLoc",
+                            actionName: "navigation",
+                            interactionUuid: "-a-TtgDRA",
+                            componentUuid: "iKKsx8vJS-ZxVSM",
+                            argName: "destination"
+                          },
+                          () =>
+                            "https://royalkingdomhoney.com/checkout/?add-to-cart=19817&quantity=2"
+                        )
+                      };
                       return __wrapUserFunction(
                         {
                           type: "InteractionLoc",
                           actionName: "navigation",
-                          interactionUuid: "qBGqjB7ndduU5O7",
+                          interactionUuid: "-a-TtgDRA",
                           componentUuid: "iKKsx8vJS-ZxVSM"
                         },
                         () =>
@@ -6015,17 +6203,25 @@ function PlasmicOffer4__RenderFunc(props: {
                     })()
                   : undefined;
                 if (
-                  typeof $steps["goToCollection13"] === "object" &&
-                  typeof $steps["goToCollection13"].then === "function"
+                  typeof $steps[
+                    "goToHttpsroyalkingdomhoneycomcheckoutaddToCart19817Quantity2"
+                  ] === "object" &&
+                  typeof $steps[
+                    "goToHttpsroyalkingdomhoneycomcheckoutaddToCart19817Quantity2"
+                  ].then === "function"
                 ) {
-                  $steps["goToCollection13"] = await __wrapUserPromise(
+                  $steps[
+                    "goToHttpsroyalkingdomhoneycomcheckoutaddToCart19817Quantity2"
+                  ] = await __wrapUserPromise(
                     {
                       type: "InteractionLoc",
                       actionName: "navigation",
-                      interactionUuid: "qBGqjB7ndduU5O7",
+                      interactionUuid: "-a-TtgDRA",
                       componentUuid: "iKKsx8vJS-ZxVSM"
                     },
-                    $steps["goToCollection13"]
+                    $steps[
+                      "goToHttpsroyalkingdomhoneycomcheckoutaddToCart19817Quantity2"
+                    ]
                   );
                 }
               }}
@@ -7489,14 +7685,28 @@ function PlasmicOffer4__RenderFunc(props: {
                   )}
                   onClick={async event => {
                     const $steps = {};
-                    $steps["goToCollection13"] = true
+                    $steps[
+                      "goToHttpsroyalkingdomhoneycomcheckoutaddToCart19817Quantity2"
+                    ] = true
                       ? (() => {
-                          const actionArgs = {};
+                          const actionArgs = {
+                            destination: __wrapUserFunction(
+                              {
+                                type: "InteractionArgLoc",
+                                actionName: "navigation",
+                                interactionUuid: "7uVZ_MFEd",
+                                componentUuid: "iKKsx8vJS-ZxVSM",
+                                argName: "destination"
+                              },
+                              () =>
+                                "https://royalkingdomhoney.com/checkout/?add-to-cart=19817&quantity=2"
+                            )
+                          };
                           return __wrapUserFunction(
                             {
                               type: "InteractionLoc",
                               actionName: "navigation",
-                              interactionUuid: "1R-nQZTcPVsKj5o",
+                              interactionUuid: "7uVZ_MFEd",
                               componentUuid: "iKKsx8vJS-ZxVSM"
                             },
                             () =>
@@ -7508,17 +7718,25 @@ function PlasmicOffer4__RenderFunc(props: {
                         })()
                       : undefined;
                     if (
-                      typeof $steps["goToCollection13"] === "object" &&
-                      typeof $steps["goToCollection13"].then === "function"
+                      typeof $steps[
+                        "goToHttpsroyalkingdomhoneycomcheckoutaddToCart19817Quantity2"
+                      ] === "object" &&
+                      typeof $steps[
+                        "goToHttpsroyalkingdomhoneycomcheckoutaddToCart19817Quantity2"
+                      ].then === "function"
                     ) {
-                      $steps["goToCollection13"] = await __wrapUserPromise(
+                      $steps[
+                        "goToHttpsroyalkingdomhoneycomcheckoutaddToCart19817Quantity2"
+                      ] = await __wrapUserPromise(
                         {
                           type: "InteractionLoc",
                           actionName: "navigation",
-                          interactionUuid: "1R-nQZTcPVsKj5o",
+                          interactionUuid: "7uVZ_MFEd",
                           componentUuid: "iKKsx8vJS-ZxVSM"
                         },
-                        $steps["goToCollection13"]
+                        $steps[
+                          "goToHttpsroyalkingdomhoneycomcheckoutaddToCart19817Quantity2"
+                        ]
                       );
                     }
                   }}
