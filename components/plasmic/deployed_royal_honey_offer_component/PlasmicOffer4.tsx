@@ -4137,6 +4137,7 @@ function PlasmicOffer4__RenderFunc(props: {
                       "https://royalkingdomhoney.com/privacy-policy/" as const
                     }
                     platform={"nextjs"}
+                    target={"_blank" as const}
                   >
                     {"Privacy Policy"}
                   </p.PlasmicLink>
@@ -4152,6 +4153,7 @@ function PlasmicOffer4__RenderFunc(props: {
                       "https://royalkingdomhoney.com/refund_returns/" as const
                     }
                     platform={"nextjs"}
+                    target={"_blank" as const}
                   >
                     {"Refunds & Returns"}
                   </p.PlasmicLink>
@@ -4167,6 +4169,7 @@ function PlasmicOffer4__RenderFunc(props: {
                       "https://royalkingdomhoney.com/terms-conditions/" as const
                     }
                     platform={"nextjs"}
+                    target={"_blank" as const}
                   >
                     {"Terms & Conditions"}
                   </p.PlasmicLink>
@@ -4178,7 +4181,9 @@ function PlasmicOffer4__RenderFunc(props: {
                       sty.link__i27Zl
                     )}
                     component={Link}
+                    href={`/contact`}
                     platform={"nextjs"}
+                    target={"_blank" as const}
                   >
                     {"Contact"}
                   </p.PlasmicLink>
@@ -8532,6 +8537,7 @@ function PlasmicOffer4__RenderFunc(props: {
                     "https://royalkingdomhoney.com/privacy-policy/" as const
                   }
                   platform={"nextjs"}
+                  target={"_blank" as const}
                 >
                   {"Privacy Policy"}
                 </p.PlasmicLink>
@@ -8547,6 +8553,7 @@ function PlasmicOffer4__RenderFunc(props: {
                     "https://royalkingdomhoney.com/refund_returns/" as const
                   }
                   platform={"nextjs"}
+                  target={"_blank" as const}
                 >
                   {"Refunds & Returns"}
                 </p.PlasmicLink>
@@ -8562,6 +8569,7 @@ function PlasmicOffer4__RenderFunc(props: {
                     "https://royalkingdomhoney.com/terms-conditions/" as const
                   }
                   platform={"nextjs"}
+                  target={"_blank" as const}
                 >
                   {"Terms & Conditions"}
                 </p.PlasmicLink>
@@ -8573,7 +8581,9 @@ function PlasmicOffer4__RenderFunc(props: {
                     sty.link___7W0J
                   )}
                   component={Link}
+                  href={`/contact`}
                   platform={"nextjs"}
+                  target={"_blank" as const}
                 >
                   {"Contact\nUs"}
                 </p.PlasmicLink>
