@@ -38,7 +38,7 @@ export default function GlobalContextsProvider(
       host={
         cmsCredentialsProviderProps && "host" in cmsCredentialsProviderProps
           ? cmsCredentialsProviderProps.host!
-          : ("https://studio.plasmic.app" as const)
+          : ("https://data.plasmic.app" as const)
       }
       locale={
         cmsCredentialsProviderProps && "locale" in cmsCredentialsProviderProps

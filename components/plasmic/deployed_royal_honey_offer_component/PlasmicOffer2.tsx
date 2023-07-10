@@ -42,6 +42,7 @@ import { useScreenVariants as useScreenVariantsaFcxzchOaTtwfH } from "./PlasmicG
 
 import "@plasmicapp/react-web/lib/plasmic.css";
 
+import plasmic_antd_5_hostless_css from "../antd_5_hostless/plasmic_antd_5_hostless.module.css"; // plasmic-import: ohDidvG9XsCeFumugENU3J/projectcss
 import projectcss from "./plasmic_deployed_royal_honey_offer_component.module.css"; // plasmic-import: dGhXFrWhKMiTmf4n16zhxF/projectcss
 import sty from "./PlasmicOffer2.module.css"; // plasmic-import: fY3LlGb9jfQSkJq/css
 
@@ -120,6 +121,7 @@ function PlasmicOffer2__RenderFunc(props: {
         projectcss.plasmic_default_styles,
         projectcss.plasmic_mixins,
         projectcss.plasmic_tokens,
+        plasmic_antd_5_hostless_css.plasmic_tokens,
         sty.root
       )}
     >
@@ -525,7 +527,7 @@ function PlasmicOffer2__RenderFunc(props: {
                           }
                         }}
                       >
-                        {"Claim Free Offer 👉"}
+                        {"Claim Free Offer \ud83d\udc49"}
                       </button>
                       <p.PlasmicImg
                         alt={""}
@@ -582,7 +584,7 @@ function PlasmicOffer2__RenderFunc(props: {
                           <React.Fragment>
                             <React.Fragment>
                               {
-                                "“I used it last night and it worked wonders!!!!”\n"
+                                "\u201cI used it last night and it worked wonders!!!!\u201d\n"
                               }
                             </React.Fragment>
                             <span
@@ -964,7 +966,7 @@ function PlasmicOffer2__RenderFunc(props: {
                   )}
                 >
                   {
-                    "Royal Honey enriches your body with a sudden boost of vitality and stamina so you can enjoy your romantic pleasures without the struggles of burnout or an unwelcoming early climax. Each sachet is filled with the most potent and natural source of sexual power and testosterone—Royal Honey—that is filled with rich floral nectar and a mix of select roots to maximize the effect."
+                    "Royal Honey enriches your body with a sudden boost of vitality and stamina so you can enjoy your romantic pleasures without the struggles of burnout or an unwelcoming early climax. Each sachet is filled with the most potent and natural source of sexual power and testosterone\u2014Royal Honey\u2014that is filled with rich floral nectar and a mix of select roots to maximize the effect."
                   }
                 </div>
                 <div className={classNames(projectcss.all, sty.freeBox__wqU2Y)}>
@@ -1048,7 +1050,7 @@ function PlasmicOffer2__RenderFunc(props: {
                     }
                   }}
                 >
-                  {"Claim Free Offer 👉"}
+                  {"Claim Free Offer \ud83d\udc49"}
                 </button>
                 <p.PlasmicImg
                   alt={""}
@@ -1427,7 +1429,9 @@ function PlasmicOffer2__RenderFunc(props: {
               >
                 <React.Fragment>
                   <React.Fragment>
-                    {"Royal Honey’s Carefully Designed Botanical Formula \n"}
+                    {
+                      "Royal Honey\u2019s Carefully Designed Botanical Formula \n"
+                    }
                   </React.Fragment>
                   <span
                     className={"plasmic_default__all plasmic_default__span"}
@@ -2005,7 +2009,7 @@ function PlasmicOffer2__RenderFunc(props: {
                     }
                   }}
                 >
-                  {"Claim Free Offer 👉"}
+                  {"Claim Free Offer \ud83d\udc49"}
                 </button>
                 <p.PlasmicImg
                   alt={""}
@@ -2047,7 +2051,7 @@ function PlasmicOffer2__RenderFunc(props: {
                   sty.text__koRK
                 )}
               >
-                {"Don’t Just Take Our Word For It"}
+                {"Don\u2019t Just Take Our Word For It"}
               </div>
               <div className={classNames(projectcss.all, sty.freeBox__zX04Y)}>
                 <p.PlasmicImg
@@ -2167,7 +2171,7 @@ function PlasmicOffer2__RenderFunc(props: {
                     )}
                   >
                     {
-                      "“Been using it as I’m in my 40’s and can use the help. Pretty incredible stuff. I mean hard as a rock…"
+                      "\u201cBeen using it as I\u2019m in my 40\u2019s and can use the help. Pretty incredible stuff. I mean hard as a rock\u2026"
                     }
                   </div>
                   <div
@@ -2290,7 +2294,7 @@ function PlasmicOffer2__RenderFunc(props: {
                     )}
                   >
                     {
-                      "“I used it last night and it worked wonders!! I can’t believe how fast it kicked in”"
+                      "\u201cI used it last night and it worked wonders!! I can\u2019t believe how fast it kicked in\u201d"
                     }
                   </div>
                   <div
@@ -2411,7 +2415,7 @@ function PlasmicOffer2__RenderFunc(props: {
                     )}
                   >
                     {
-                      "No joke more potent than my prescription. Amazed at how easy it was to use and how good I felt”"
+                      "No joke more potent than my prescription. Amazed at how easy it was to use and how good I felt\u201d"
                     }
                   </div>
                   <div
@@ -2664,7 +2668,7 @@ function PlasmicOffer2__RenderFunc(props: {
                     }
                   }}
                 >
-                  {"CLAIM FREE DEVICE  👉"}
+                  {"CLAIM FREE DEVICE  \ud83d\udc49"}
                 </button>
                 <p.PlasmicImg
                   alt={""}
@@ -2723,7 +2727,7 @@ function PlasmicOffer2__RenderFunc(props: {
                   sty.text__d6HEk
                 )}
               >
-                {"We’ve Got You Covered"}
+                {"We\u2019ve Got You Covered"}
               </div>
               {true ? (
                 <div
@@ -3247,7 +3251,7 @@ function PlasmicOffer2__RenderFunc(props: {
                           sty.text__pPnQb
                         )}
                       >
-                        {"What’s included (3 Devices)"}
+                        {"What\u2019s included (3 Devices)"}
                       </div>
                       <div
                         className={classNames(
@@ -3378,7 +3382,7 @@ function PlasmicOffer2__RenderFunc(props: {
                           sty.button__aQUzI
                         )}
                       >
-                        {"add to cart 👉"}
+                        {"add to cart \ud83d\udc49"}
                       </button>
                       <p.PlasmicImg
                         alt={""}
@@ -3539,7 +3543,7 @@ function PlasmicOffer2__RenderFunc(props: {
                           sty.text__fVehJ
                         )}
                       >
-                        {"What’s included (6 Devices)"}
+                        {"What\u2019s included (6 Devices)"}
                       </div>
                       <div
                         className={classNames(
@@ -3670,7 +3674,7 @@ function PlasmicOffer2__RenderFunc(props: {
                           sty.button__yAuXd
                         )}
                       >
-                        {"add to cart 👉"}
+                        {"add to cart \ud83d\udc49"}
                       </button>
                       <p.PlasmicImg
                         alt={""}
@@ -3812,7 +3816,7 @@ function PlasmicOffer2__RenderFunc(props: {
                           sty.text__cyk1T
                         )}
                       >
-                        {"What’s included (1 Device)"}
+                        {"What\u2019s included (1 Device)"}
                       </div>
                       <div
                         className={classNames(
@@ -3875,7 +3879,7 @@ function PlasmicOffer2__RenderFunc(props: {
                           sty.button__o8J4F
                         )}
                       >
-                        {"add to cart 👉"}
+                        {"add to cart \ud83d\udc49"}
                       </button>
                       <p.PlasmicImg
                         alt={""}
@@ -4013,7 +4017,7 @@ function PlasmicOffer2__RenderFunc(props: {
                       }
                     }}
                   >
-                    {"Claim Free Offer 👉"}
+                    {"Claim Free Offer \ud83d\udc49"}
                   </button>
                 </div>
               </div>
@@ -4383,7 +4387,7 @@ function PlasmicOffer2__RenderFunc(props: {
                 }
               }}
             >
-              {"Claim Free Offer  👉"}
+              {"Claim Free Offer  \ud83d\udc49"}
             </button>
             {(
               hasVariant(globalVariants, "screen", "mobileOnly") ? true : true
@@ -4452,7 +4456,9 @@ function PlasmicOffer2__RenderFunc(props: {
               >
                 <React.Fragment>
                   <React.Fragment>
-                    {"“I used it last night and it worked wonders!!!!”\n"}
+                    {
+                      "\u201cI used it last night and it worked wonders!!!!\u201d\n"
+                    }
                   </React.Fragment>
                   <span
                     className={"plasmic_default__all plasmic_default__span"}
@@ -4784,7 +4790,7 @@ function PlasmicOffer2__RenderFunc(props: {
                 )}
               >
                 {
-                  "By trading in nic and harmful chemicals for extensively researched nutraceutical\ningredients, SPARQ® is imagining “the evolution of inhalation” where wellness is the\nultimate goal. Our patented device, Vitamin Air®, is sustainably designed to improve the\nlives of users through positive lifestyle changes and social interactions. Teaming up with\ntop scientific minds, SPARQ continues to research the realm of vitamin and herbal\nabsorption through the lungs. We spare no expense in our commitment to producing\nmeaningful and transformative innovations."
+                  "By trading in nic and harmful chemicals for extensively researched nutraceutical\ningredients, SPARQ\u00ae is imagining \u201cthe evolution of inhalation\u201d where wellness is the\nultimate goal. Our patented device, Vitamin Air\u00ae, is sustainably designed to improve the\nlives of users through positive lifestyle changes and social interactions. Teaming up with\ntop scientific minds, SPARQ continues to research the realm of vitamin and herbal\nabsorption through the lungs. We spare no expense in our commitment to producing\nmeaningful and transformative innovations."
                 }
               </div>
             ) : null}
@@ -4798,7 +4804,7 @@ function PlasmicOffer2__RenderFunc(props: {
               )}
             >
               {
-                "Royal Honey enriches your body with a sudden boost of vitality and stamina so you can enjoy your romantic pleasures without the struggles of burnout or an unwelcoming early climax. Each sachet is filled with the most potent and natural source of sexual power and testosterone—Royal Honey—that is filled with rich floral nectar and a mix of select roots to maximize the effect."
+                "Royal Honey enriches your body with a sudden boost of vitality and stamina so you can enjoy your romantic pleasures without the struggles of burnout or an unwelcoming early climax. Each sachet is filled with the most potent and natural source of sexual power and testosterone\u2014Royal Honey\u2014that is filled with rich floral nectar and a mix of select roots to maximize the effect."
               }
             </div>
             <div className={classNames(projectcss.all, sty.freeBox__zhRx5)}>
@@ -4903,7 +4909,7 @@ function PlasmicOffer2__RenderFunc(props: {
                 }
               }}
             >
-              {"Claim Free Offer  👉"}
+              {"Claim Free Offer  \ud83d\udc49"}
             </button>
             <p.PlasmicImg
               alt={""}
@@ -5347,7 +5353,7 @@ function PlasmicOffer2__RenderFunc(props: {
             >
               <React.Fragment>
                 <React.Fragment>
-                  {"Royal Honey’s Carefully Designed Botanical Formula \n"}
+                  {"Royal Honey\u2019s Carefully Designed Botanical Formula \n"}
                 </React.Fragment>
                 <span
                   className={"plasmic_default__all plasmic_default__span"}
@@ -6049,7 +6055,7 @@ function PlasmicOffer2__RenderFunc(props: {
                 }
               }}
             >
-              {"Claim Free Offer  👉"}
+              {"Claim Free Offer  \ud83d\udc49"}
             </button>
             <p.PlasmicImg
               alt={""}
@@ -6086,7 +6092,7 @@ function PlasmicOffer2__RenderFunc(props: {
                 sty.text__ajGuc
               )}
             >
-              {"Don’t Just Take Our Word For It"}
+              {"Don\u2019t Just Take Our Word For It"}
             </div>
             <div className={classNames(projectcss.all, sty.freeBox__ffiKd)}>
               <p.PlasmicImg
@@ -6208,7 +6214,7 @@ function PlasmicOffer2__RenderFunc(props: {
                   )}
                 >
                   {
-                    '“Been using it as I’m in my 40’s and can use the help. Pretty incredible stuff. I mean hard as a rock…"'
+                    '\u201cBeen using it as I\u2019m in my 40\u2019s and can use the help. Pretty incredible stuff. I mean hard as a rock\u2026"'
                   }
                 </div>
                 <div
@@ -6312,7 +6318,7 @@ function PlasmicOffer2__RenderFunc(props: {
                       )}
                     >
                       {
-                        '“Excellent. I love this. I quit cigs. I love this device. It is natural, no nic. It really does help calm me"'
+                        '\u201cExcellent. I love this. I quit cigs. I love this device. It is natural, no nic. It really does help calm me"'
                       }
                     </div>
                     <div
@@ -6415,7 +6421,7 @@ function PlasmicOffer2__RenderFunc(props: {
                   sty.text__uKTds
                 )}
               >
-                {"“Works Wonders”"}
+                {"\u201cWorks Wonders\u201d"}
               </div>
               <p.PlasmicImg
                 alt={""}
@@ -6443,7 +6449,7 @@ function PlasmicOffer2__RenderFunc(props: {
                 )}
               >
                 {
-                  "“I used it last night and it worked wonders!! I can’t believe how fast it kicked in”"
+                  "\u201cI used it last night and it worked wonders!! I can\u2019t believe how fast it kicked in\u201d"
                 }
               </div>
               <div
@@ -6547,7 +6553,7 @@ function PlasmicOffer2__RenderFunc(props: {
                     )}
                   >
                     {
-                      '“Excellent. I love this. I quit cigs. I love this device. It is natural, no nic. It really does help calm me"'
+                      '\u201cExcellent. I love this. I quit cigs. I love this device. It is natural, no nic. It really does help calm me"'
                     }
                   </div>
                   <div
@@ -6675,7 +6681,7 @@ function PlasmicOffer2__RenderFunc(props: {
                 )}
               >
                 {
-                  "No joke more potent than my prescription. Amazed at how easy it was to use and how good I felt”"
+                  "No joke more potent than my prescription. Amazed at how easy it was to use and how good I felt\u201d"
                 }
               </div>
               <div
@@ -6777,7 +6783,7 @@ function PlasmicOffer2__RenderFunc(props: {
                     )}
                   >
                     {
-                      '“Excellent. I love this. I quit cigs. I love this device. It is natural, no nic. It really does help calm me"'
+                      '\u201cExcellent. I love this. I quit cigs. I love this device. It is natural, no nic. It really does help calm me"'
                     }
                   </div>
                   <div
@@ -6976,7 +6982,7 @@ function PlasmicOffer2__RenderFunc(props: {
                   }
                 }}
               >
-                {"CLAIM FREE DEVICE  👉"}
+                {"CLAIM FREE DEVICE  \ud83d\udc49"}
               </button>
               <p.PlasmicImg
                 alt={""}
@@ -7035,7 +7041,7 @@ function PlasmicOffer2__RenderFunc(props: {
                   sty.text__gjBzU
                 )}
               >
-                {"We’ve Got You Covered"}
+                {"We\u2019ve Got You Covered"}
               </div>
               <div className={classNames(projectcss.all, sty.freeBox__qes4L)}>
                 <div className={classNames(projectcss.all, sty.freeBox__fhboS)}>
@@ -7546,7 +7552,7 @@ function PlasmicOffer2__RenderFunc(props: {
                     }
                   }}
                 >
-                  {"Claim Free Offer  👉"}
+                  {"Claim Free Offer  \ud83d\udc49"}
                 </button>
               </div>
             </div>
@@ -7657,7 +7663,7 @@ function PlasmicOffer2__RenderFunc(props: {
                     sty.text__vAizL
                   )}
                 >
-                  {"What’s included (3 Devices)"}
+                  {"What\u2019s included (3 Devices)"}
                 </div>
                 <div className={classNames(projectcss.all, sty.freeBox__jvBx1)}>
                   <p.PlasmicImg
@@ -7771,7 +7777,7 @@ function PlasmicOffer2__RenderFunc(props: {
                     sty.button__ulHs4
                   )}
                 >
-                  {"add to cart 👉"}
+                  {"add to cart \ud83d\udc49"}
                 </button>
                 <p.PlasmicImg
                   alt={""}
@@ -7914,7 +7920,7 @@ function PlasmicOffer2__RenderFunc(props: {
                     sty.text__ftHhn
                   )}
                 >
-                  {"What’s included (6 Devices)"}
+                  {"What\u2019s included (6 Devices)"}
                 </div>
                 <div className={classNames(projectcss.all, sty.freeBox__yvlha)}>
                   <p.PlasmicImg
@@ -8028,7 +8034,7 @@ function PlasmicOffer2__RenderFunc(props: {
                     sty.button__m53G4
                   )}
                 >
-                  {"add to cart 👉"}
+                  {"add to cart \ud83d\udc49"}
                 </button>
                 <p.PlasmicImg
                   alt={""}
@@ -8179,7 +8185,7 @@ function PlasmicOffer2__RenderFunc(props: {
                     sty.text__kpcqf
                   )}
                 >
-                  {"What’s included (1 Device)"}
+                  {"What\u2019s included (1 Device)"}
                 </div>
                 <div className={classNames(projectcss.all, sty.freeBox__k9WV7)}>
                   <p.PlasmicImg
@@ -8235,7 +8241,7 @@ function PlasmicOffer2__RenderFunc(props: {
                     sty.button__wq4GQ
                   )}
                 >
-                  {"add to cart 👉"}
+                  {"add to cart \ud83d\udc49"}
                 </button>
                 <p.PlasmicImg
                   alt={""}
