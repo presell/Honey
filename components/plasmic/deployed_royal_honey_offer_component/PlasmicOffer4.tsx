@@ -48,6 +48,8 @@ import sty from "./PlasmicOffer4.module.css"; // plasmic-import: iKKsx8vJS-ZxVSM
 
 import ChevronRightIcon from "./icons/PlasmicIcon__ChevronRight"; // plasmic-import: 066r2Kf6wQgH2uY/icon
 
+createPlasmicElementProxy;
+
 export type PlasmicOffer4__VariantMembers = {};
 export type PlasmicOffer4__VariantsArgs = {};
 type VariantPropType = keyof PlasmicOffer4__VariantsArgs;
@@ -94,6 +96,7 @@ function PlasmicOffer4__RenderFunc(props: {
 
   const $ctx = ph.useDataEnv?.() || {};
   const args = React.useMemo(() => Object.assign({}, props.args), [props.args]);
+
   const $props = {
     ...args,
     ...variants
@@ -4140,6 +4143,20 @@ function PlasmicOffer4__RenderFunc(props: {
                     target={"_blank" as const}
                   >
                     {"Privacy Policy"}
+                  </p.PlasmicLink>
+                  <p.PlasmicLink
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.a,
+                      projectcss.__wab_text,
+                      sty.link__lNLot
+                    )}
+                    component={Link}
+                    href={`/shipping`}
+                    platform={"nextjs"}
+                    target={"_blank" as const}
+                  >
+                    {"Shipping Policy"}
                   </p.PlasmicLink>
                   <p.PlasmicLink
                     className={classNames(
@@ -8546,6 +8563,20 @@ function PlasmicOffer4__RenderFunc(props: {
                     projectcss.all,
                     projectcss.a,
                     projectcss.__wab_text,
+                    sty.link__kIl8U
+                  )}
+                  component={Link}
+                  href={`/shipping`}
+                  platform={"nextjs"}
+                  target={"_blank" as const}
+                >
+                  {"Shipping Policy"}
+                </p.PlasmicLink>
+                <p.PlasmicLink
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.a,
+                    projectcss.__wab_text,
                     sty.link__fDgXx
                   )}
                   component={Link}
@@ -8557,12 +8588,120 @@ function PlasmicOffer4__RenderFunc(props: {
                 >
                   {"Refunds & Returns"}
                 </p.PlasmicLink>
+                {(
+                  hasVariant(globalVariants, "screen", "mobileOnly")
+                    ? true
+                    : true
+                ) ? (
+                  <p.PlasmicLink
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.a,
+                      projectcss.__wab_text,
+                      sty.link__cNdCv
+                    )}
+                    component={Link}
+                    href={
+                      "https://royalkingdomhoney.com/terms-conditions/" as const
+                    }
+                    platform={"nextjs"}
+                    target={"_blank" as const}
+                  >
+                    {"Terms & Conditions"}
+                  </p.PlasmicLink>
+                ) : null}
+                {(
+                  hasVariant(globalVariants, "screen", "mobileOnly")
+                    ? true
+                    : true
+                ) ? (
+                  <p.PlasmicLink
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.a,
+                      projectcss.__wab_text,
+                      sty.link___7W0J
+                    )}
+                    component={Link}
+                    href={`/contact`}
+                    platform={"nextjs"}
+                    target={"_blank" as const}
+                  >
+                    {"Contact\nUs"}
+                  </p.PlasmicLink>
+                ) : null}
+              </div>
+              <div className={classNames(projectcss.all, sty.freeBox___06Ql2)}>
+                {(
+                  hasVariant(globalVariants, "screen", "mobileOnly")
+                    ? true
+                    : true
+                ) ? (
+                  <p.PlasmicLink
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.a,
+                      projectcss.__wab_text,
+                      sty.link__hgPwJ
+                    )}
+                    component={Link}
+                    href={
+                      "https://royalkingdomhoney.com/privacy-policy/" as const
+                    }
+                    platform={"nextjs"}
+                    target={"_blank" as const}
+                  >
+                    {"Privacy Policy"}
+                  </p.PlasmicLink>
+                ) : null}
+                {(
+                  hasVariant(globalVariants, "screen", "mobileOnly")
+                    ? true
+                    : true
+                ) ? (
+                  <p.PlasmicLink
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.a,
+                      projectcss.__wab_text,
+                      sty.link__wEi9M
+                    )}
+                    component={Link}
+                    href={`/shipping`}
+                    platform={"nextjs"}
+                    target={"_blank" as const}
+                  >
+                    {"Shipping Policy"}
+                  </p.PlasmicLink>
+                ) : null}
+                {(
+                  hasVariant(globalVariants, "screen", "mobileOnly")
+                    ? true
+                    : true
+                ) ? (
+                  <p.PlasmicLink
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.a,
+                      projectcss.__wab_text,
+                      sty.link__r6Qno
+                    )}
+                    component={Link}
+                    href={
+                      "https://royalkingdomhoney.com/refund_returns/" as const
+                    }
+                    platform={"nextjs"}
+                    target={"_blank" as const}
+                  >
+                    {"Refunds & Returns"}
+                  </p.PlasmicLink>
+                ) : null}
                 <p.PlasmicLink
                   className={classNames(
                     projectcss.all,
                     projectcss.a,
                     projectcss.__wab_text,
-                    sty.link__cNdCv
+                    sty.link__v1Nal
                   )}
                   component={Link}
                   href={
@@ -8571,14 +8710,14 @@ function PlasmicOffer4__RenderFunc(props: {
                   platform={"nextjs"}
                   target={"_blank" as const}
                 >
-                  {"Terms & Conditions"}
+                  {"Terms & \nConditions"}
                 </p.PlasmicLink>
                 <p.PlasmicLink
                   className={classNames(
                     projectcss.all,
                     projectcss.a,
                     projectcss.__wab_text,
-                    sty.link___7W0J
+                    sty.link__otYei
                   )}
                   component={Link}
                   href={`/contact`}
@@ -8604,7 +8743,7 @@ const PlasmicDescendants = {
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<T extends NodeNameType> =
-  (typeof PlasmicDescendants)[T][number];
+  typeof PlasmicDescendants[T][number];
 type NodeDefaultElementType = {
   root: "div";
   announcementBar: "div";

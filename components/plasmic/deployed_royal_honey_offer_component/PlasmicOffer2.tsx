@@ -48,6 +48,8 @@ import sty from "./PlasmicOffer2.module.css"; // plasmic-import: fY3LlGb9jfQSkJq
 
 import ChevronRightIcon from "./icons/PlasmicIcon__ChevronRight"; // plasmic-import: 066r2Kf6wQgH2uY/icon
 
+createPlasmicElementProxy;
+
 export type PlasmicOffer2__VariantMembers = {};
 export type PlasmicOffer2__VariantsArgs = {};
 type VariantPropType = keyof PlasmicOffer2__VariantsArgs;
@@ -94,6 +96,7 @@ function PlasmicOffer2__RenderFunc(props: {
 
   const $ctx = ph.useDataEnv?.() || {};
   const args = React.useMemo(() => Object.assign({}, props.args), [props.args]);
+
   const $props = {
     ...args,
     ...variants
@@ -8277,7 +8280,7 @@ const PlasmicDescendants = {
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<T extends NodeNameType> =
-  (typeof PlasmicDescendants)[T][number];
+  typeof PlasmicDescendants[T][number];
 type NodeDefaultElementType = {
   root: "div";
   announcementBar: "div";

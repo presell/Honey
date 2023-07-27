@@ -43,6 +43,8 @@ import plasmic_antd_5_hostless_css from "../antd_5_hostless/plasmic_antd_5_hostl
 import projectcss from "./plasmic_deployed_royal_honey_offer_component.module.css"; // plasmic-import: dGhXFrWhKMiTmf4n16zhxF/projectcss
 import sty from "./PlasmicContact.module.css"; // plasmic-import: WUmuLkuIoz/css
 
+createPlasmicElementProxy;
+
 export type PlasmicContact__VariantMembers = {};
 export type PlasmicContact__VariantsArgs = {};
 type VariantPropType = keyof PlasmicContact__VariantsArgs;
@@ -86,6 +88,7 @@ function PlasmicContact__RenderFunc(props: {
 
   const $ctx = ph.useDataEnv?.() || {};
   const args = React.useMemo(() => Object.assign({}, props.args), [props.args]);
+
   const $props = {
     ...args,
     ...variants
@@ -99,7 +102,35 @@ function PlasmicContact__RenderFunc(props: {
 
   return (
     <React.Fragment>
-      <Head></Head>
+      <Head>
+        <meta name="twitter:card" content="summary" />
+        <title key="title">{PlasmicContact.pageMetadata.title}</title>
+        <meta
+          key="og:title"
+          property="og:title"
+          content={PlasmicContact.pageMetadata.title}
+        />
+        <meta
+          key="twitter:title"
+          name="twitter:title"
+          content={PlasmicContact.pageMetadata.title}
+        />
+        <meta
+          key="description"
+          name="description"
+          content={PlasmicContact.pageMetadata.description}
+        />
+        <meta
+          key="og:description"
+          property="og:description"
+          content={PlasmicContact.pageMetadata.description}
+        />
+        <meta
+          key="twitter:description"
+          name="twitter:description"
+          content={PlasmicContact.pageMetadata.description}
+        />
+      </Head>
 
       <style>{`
         body {
@@ -193,7 +224,7 @@ const PlasmicDescendants = {
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<T extends NodeNameType> =
-  (typeof PlasmicDescendants)[T][number];
+  typeof PlasmicDescendants[T][number];
 type NodeDefaultElementType = {
   root: "div";
   freeBox: "div";
@@ -269,8 +300,8 @@ export const PlasmicContact = Object.assign(
 
     // Page metadata
     pageMetadata: {
-      title: "",
-      description: "",
+      title: "CONTACT",
+      description: "EMAIL: orders@royalkingdomhoney.com",
       ogImageSrc: "",
       canonical: ""
     }
