@@ -334,7 +334,7 @@ function PlasmicOffer4__RenderFunc(props: {
                           sty.text__yiXpf
                         )}
                       >
-                        {"Powerful Rapid-Acting  Stimulant"}
+                        {"Powerful Rapid-Acting  Nectar"}
                       </div>
                     </div>
                     <div
@@ -399,39 +399,44 @@ function PlasmicOffer4__RenderFunc(props: {
                         {"Supports Improves Endurance & Performance"}
                       </div>
                     </div>
-                    <div
-                      className={classNames(projectcss.all, sty.freeBox__iHt09)}
-                    >
-                      <p.PlasmicImg
-                        alt={""}
-                        className={classNames(sty.img__g3Bu)}
-                        displayHeight={"20px" as const}
-                        displayMaxHeight={"none" as const}
-                        displayMaxWidth={"20px" as const}
-                        displayMinHeight={"0" as const}
-                        displayMinWidth={"0" as const}
-                        displayWidth={"20px" as const}
-                        loading={"lazy" as const}
-                        src={{
-                          src: "/plasmic/deployed_royal_honey_offer_component/images/li3.png",
-                          fullWidth: 44,
-                          fullHeight: 32,
-                          aspectRatio: undefined
-                        }}
-                      />
-
+                    {true ? (
                       <div
                         className={classNames(
                           projectcss.all,
-                          projectcss.__wab_text,
-                          sty.text__awwXc
+                          sty.freeBox__iHt09
                         )}
                       >
-                        {
-                          "Ingredients Shown To Naturally Increase Testosterone Levels "
-                        }
+                        <p.PlasmicImg
+                          alt={""}
+                          className={classNames(sty.img__g3Bu)}
+                          displayHeight={"20px" as const}
+                          displayMaxHeight={"none" as const}
+                          displayMaxWidth={"20px" as const}
+                          displayMinHeight={"0" as const}
+                          displayMinWidth={"0" as const}
+                          displayWidth={"20px" as const}
+                          loading={"lazy" as const}
+                          src={{
+                            src: "/plasmic/deployed_royal_honey_offer_component/images/li3.png",
+                            fullWidth: 44,
+                            fullHeight: 32,
+                            aspectRatio: undefined
+                          }}
+                        />
+
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text__awwXc
+                          )}
+                        >
+                          {
+                            "Ingredients Shown To Naturally Increase Testosterone Levels "
+                          }
+                        </div>
                       </div>
-                    </div>
+                    ) : null}
                   </div>
                   <div
                     className={classNames(

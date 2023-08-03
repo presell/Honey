@@ -327,7 +327,6 @@
   min-width: 0;
 }
 .freeBox__iHt09 {
-  display: flex;
   position: relative;
   flex-direction: row;
   align-items: stretch;
@@ -336,6 +335,7 @@
   height: auto;
   max-width: 100%;
   min-width: 0;
+  display: none;
   padding: 0px;
 }
 .img__g3Bu {
