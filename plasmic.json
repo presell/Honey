@@ -1716,7 +1716,8 @@
           "displayName": "plasmic-antd5-avatar-group",
           "componentImportPath": "@plasmicpkgs/antd5/skinny/registerAvatar"
         }
-      ]
+      ],
+      "jsBundleThemes": []
     }
   ],
   "globalVariants": {

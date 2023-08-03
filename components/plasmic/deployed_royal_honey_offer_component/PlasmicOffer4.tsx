@@ -396,7 +396,7 @@ function PlasmicOffer4__RenderFunc(props: {
                           sty.text__lpzBx
                         )}
                       >
-                        {"Supports Improves Endurance & Performance"}
+                        {"Improves Endurance & Performance"}
                       </div>
                     </div>
                     {true ? (
@@ -4379,7 +4379,7 @@ function PlasmicOffer4__RenderFunc(props: {
                   sty.text__sximL
                 )}
               >
-                {"Powerful Rapid-Acting  Stimulant"}
+                {"Powerful Rapid-Acting  Nectar"}
               </div>
             </div>
             <div className={classNames(projectcss.all, sty.freeBox__pxy9N)}>
@@ -4437,38 +4437,44 @@ function PlasmicOffer4__RenderFunc(props: {
                   sty.text__sztse
                 )}
               >
-                {"Supports Improves Endurance & Performance"}
+                {"Improves Endurance & Performance"}
               </div>
             </div>
-            <div className={classNames(projectcss.all, sty.freeBox___2THg)}>
-              <p.PlasmicImg
-                alt={""}
-                className={classNames(sty.img__kws6K)}
-                displayHeight={"13px" as const}
-                displayMaxHeight={"none" as const}
-                displayMaxWidth={"100%" as const}
-                displayMinHeight={"0" as const}
-                displayMinWidth={"0" as const}
-                displayWidth={"13px" as const}
-                loading={"lazy" as const}
-                src={{
-                  src: "/plasmic/deployed_royal_honey_offer_component/images/li3.png",
-                  fullWidth: 44,
-                  fullHeight: 32,
-                  aspectRatio: undefined
-                }}
-              />
+            {(
+              hasVariant(globalVariants, "screen", "mobileOnly") ? true : true
+            ) ? (
+              <div className={classNames(projectcss.all, sty.freeBox___2THg)}>
+                <p.PlasmicImg
+                  alt={""}
+                  className={classNames(sty.img__kws6K)}
+                  displayHeight={"13px" as const}
+                  displayMaxHeight={"none" as const}
+                  displayMaxWidth={"100%" as const}
+                  displayMinHeight={"0" as const}
+                  displayMinWidth={"0" as const}
+                  displayWidth={"13px" as const}
+                  loading={"lazy" as const}
+                  src={{
+                    src: "/plasmic/deployed_royal_honey_offer_component/images/li3.png",
+                    fullWidth: 44,
+                    fullHeight: 32,
+                    aspectRatio: undefined
+                  }}
+                />
 
-              <div
-                className={classNames(
-                  projectcss.all,
-                  projectcss.__wab_text,
-                  sty.text__wHfL
-                )}
-              >
-                {"Ingredients Shown To Naturally Increase Testosterone Levels "}
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__wHfL
+                  )}
+                >
+                  {
+                    "Ingredients Shown To Naturally Increase Testosterone Levels "
+                  }
+                </div>
               </div>
-            </div>
+            ) : null}
           </div>
           <div className={classNames(projectcss.all, sty.freeBox__x1RT2)} />
 
